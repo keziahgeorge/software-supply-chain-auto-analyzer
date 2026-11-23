@@ -1,0 +1,4072 @@
+{
+    "summary": {
+        "input_findings": 427,
+        "processed_findings": 427,
+        "unique_vulnerability_ids": 229,
+        "affected_package_instances": 198,
+        "cvss_scored_findings": 387,
+        "findings_without_cvss_score": 40,
+        "severity_distribution": {
+            "critical": 48,
+            "high": 208,
+            "medium": 137,
+            "low": 34,
+            "unknown": 0
+        },
+        "direct_dependency_findings": 77,
+        "transitive_dependency_findings": 350,
+        "findings_with_fixed_versions": 419,
+        "findings_without_fixed_versions": 8,
+        "risk_analysis_complete": true,
+        "unique_affected_packages": 198
+    },
+    "affected_packages": [
+        {
+            "package_instance_id": "node_modules/mongoose",
+            "package_name": "mongoose",
+            "installed_version": "4.2.4",
+            "package_path": "node_modules/mongoose",
+            "dependency_type": "production",
+            "is_direct": true,
+            "vulnerability_count": 13,
+            "highest_severity": "CRITICAL",
+            "highest_cvss_score": 10.0,
+            "vulnerability_ids": [
+                "GHSA-664h-wqgq-64gw",
+                "GHSA-6972-9mcm-vhwj",
+                "GHSA-8332-j7wj-wjw4",
+                "GHSA-8687-vv9j-hgph",
+                "GHSA-9m93-w8w6-76hh",
+                "GHSA-f825-f98c-gj3g",
+                "GHSA-h8hf-x3f4-xwgp",
+                "GHSA-m7xq-9374-9rvx",
+                "GHSA-pcrw-h46h-c93h",
+                "GHSA-r5xw-q988-826m",
+                "GHSA-vg7j-7cwx-8wgw",
+                "GHSA-wpg9-53fq-2r8h",
+                "GHSA-wr5m-5jph-8m96"
+            ],
+            "fixed_versions": [
+                "3.8.39",
+                "4.13.21",
+                "4.3.6",
+                "5.13.15",
+                "5.13.20",
+                "5.13.23",
+                "5.7.5",
+                "6.11.3",
+                "6.13.10",
+                "6.13.11",
+                "6.13.12",
+                "6.13.5",
+                "6.13.6",
+                "6.13.9",
+                "6.4.6",
+                "7.3.3",
+                "7.8.10",
+                "7.8.12",
+                "7.8.13",
+                "7.8.3",
+                "7.8.4",
+                "7.8.9",
+                "8.22.1",
+                "8.24.1",
+                "8.24.3",
+                "8.24.7",
+                "8.8.3",
+                "8.9.5",
+                "9.1.6",
+                "9.11.4",
+                "9.7.2",
+                "9.9.2"
+            ]
+        },
+        {
+            "package_instance_id": "node_modules/bson",
+            "package_name": "bson",
+            "installed_version": "0.4.23",
+            "package_path": "node_modules/bson",
+            "dependency_type": "transitive",
+            "is_direct": false,
+            "vulnerability_count": 2,
+            "highest_severity": "CRITICAL",
+            "highest_cvss_score": 9.8,
+            "vulnerability_ids": [
+                "GHSA-4jwp-vfvf-657p",
+                "GHSA-v8w9-2789-6hhr"
+            ],
+            "fixed_versions": [
+                "1.1.4"
+            ]
+        },
+        {
+            "package_instance_id": "node_modules/ejs",
+            "package_name": "ejs",
+            "installed_version": "1.0.0",
+            "package_path": "node_modules/ejs",
+            "dependency_type": "production",
+            "is_direct": true,
+            "vulnerability_count": 5,
+            "highest_severity": "CRITICAL",
+            "highest_cvss_score": 9.8,
+            "vulnerability_ids": [
+                "GHSA-3w5v-p54c-f74x",
+                "GHSA-6x77-rpqf-j6mw",
+                "GHSA-ghr5-ch3p-vcr6",
+                "GHSA-hwcf-pp87-7x6p",
+                "GHSA-phwq-j96m-2c2q"
+            ],
+            "fixed_versions": [
+                "2.5.5",
+                "3.1.10",
+                "3.1.7"
+            ]
+        },
+        {
+            "package_instance_id": "node_modules/ejs-locals/node_modules/ejs",
+            "package_name": "ejs",
+            "installed_version": "0.8.8",
+            "package_path": "node_modules/ejs-locals/node_modules/ejs",
+            "dependency_type": "transitive",
+            "is_direct": false,
+            "vulnerability_count": 5,
+            "highest_severity": "CRITICAL",
+            "highest_cvss_score": 9.8,
+            "vulnerability_ids": [
+                "GHSA-3w5v-p54c-f74x",
+                "GHSA-6x77-rpqf-j6mw",
+                "GHSA-ghr5-ch3p-vcr6",
+                "GHSA-hwcf-pp87-7x6p",
+                "GHSA-phwq-j96m-2c2q"
+            ],
+            "fixed_versions": [
+                "2.5.5",
+                "3.1.10",
+                "3.1.7"
+            ]
+        },
+        {
+            "package_instance_id": "node_modules/express-fileupload",
+            "package_name": "express-fileupload",
+            "installed_version": "0.0.5",
+            "package_path": "node_modules/express-fileupload",
+            "dependency_type": "production",
+            "is_direct": true,
+            "vulnerability_count": 3,
+            "highest_severity": "CRITICAL",
+            "highest_cvss_score": 9.8,
+            "vulnerability_ids": [
+                "GHSA-9wcg-jrwf-8gg7",
+                "GHSA-q3w9-g74q-vp5f",
+                "GHSA-w4m6-x6c2-j5c9"
+            ],
+            "fixed_versions": [
+                "1.1.6-alpha.6",
+                "1.1.9"
+            ]
+        },
+        {
+            "package_instance_id": "node_modules/handlebars",
+            "package_name": "handlebars",
+            "installed_version": "4.0.14",
+            "package_path": "node_modules/handlebars",
+            "dependency_type": "transitive",
+            "is_direct": false,
+            "vulnerability_count": 19,
+            "highest_severity": "CRITICAL",
+            "highest_cvss_score": 9.8,
+            "vulnerability_ids": [
+                "GHSA-2cf5-4w76-r9qv",
+                "GHSA-2qvq-rjwj-gvw9",
+                "GHSA-2w6w-674q-4c4q",
+                "GHSA-3cqr-58rm-57f8",
+                "GHSA-3mfm-83xf-c92r",
+                "GHSA-442j-39wm-28r2",
+                "GHSA-62gr-4qp9-h98f",
+                "GHSA-765h-qjxv-5f44",
+                "GHSA-8r5x-fm3f-whwj",
+                "GHSA-9cx6-37pm-9jff",
+                "GHSA-f2jv-r9rf-7988",
+                "GHSA-f52g-6jhx-586p",
+                "GHSA-g9r4-xpmj-mj65",
+                "GHSA-p8wg-vrv2-v86f",
+                "GHSA-q2c6-c6pm-g3gh",
+                "GHSA-w457-6q6x-cgp9",
+                "GHSA-xhpv-hc6g-r9c6",
+                "GHSA-xjpj-3mr7-gcpf",
+                "GHSA-xw65-4hp5-5hc7"
+            ],
+            "fixed_versions": [
+                "3.0.8",
+                "4.3.0",
+                "4.4.5",
+                "4.5.2",
+                "4.5.3",
+                "4.7.10",
+                "4.7.7",
+                "4.7.9"
+            ]
+        },
+        {
+            "package_instance_id": "node_modules/json-schema",
+            "package_name": "json-schema",
+            "installed_version": "0.2.3",
+            "package_path": "node_modules/json-schema",
+            "dependency_type": "transitive",
+            "is_direct": false,
+            "vulnerability_count": 1,
+            "highest_severity": "CRITICAL",
+            "highest_cvss_score": 9.8,
+            "vulnerability_ids": [
+                "GHSA-896r-f27r-55mw"
+            ],
+            "fixed_versions": [
+                "0.4.0"
+            ]
+        },
+        {
+            "package_instance_id": "node_modules/minimist",
+            "package_name": "minimist",
+            "installed_version": "1.2.0",
+            "package_path": "node_modules/minimist",
+            "dependency_type": "transitive",
+            "is_direct": false,
+            "vulnerability_count": 2,
+            "highest_severity": "CRITICAL",
+            "highest_cvss_score": 9.8,
+            "vulnerability_ids": [
+                "GHSA-vh95-rmgr-6w4m",
+                "GHSA-xvch-5gv4-984h"
+            ],
+            "fixed_versions": [
+                "0.2.1",
+                "0.2.4",
+                "1.2.3",
+                "1.2.6"
+            ]
+        },
+        {
+            "package_instance_id": "node_modules/nyc/node_modules/handlebars",
+            "package_name": "handlebars",
+            "installed_version": "4.0.11",
+            "package_path": "node_modules/nyc/node_modules/handlebars",
+            "dependency_type": "transitive",
+            "is_direct": false,
+            "vulnerability_count": 20,
+            "highest_severity": "CRITICAL",
+            "highest_cvss_score": 9.8,
+            "vulnerability_ids": [
+                "GHSA-2cf5-4w76-r9qv",
+                "GHSA-2qvq-rjwj-gvw9",
+                "GHSA-2w6w-674q-4c4q",
+                "GHSA-3cqr-58rm-57f8",
+                "GHSA-3mfm-83xf-c92r",
+                "GHSA-442j-39wm-28r2",
+                "GHSA-62gr-4qp9-h98f",
+                "GHSA-765h-qjxv-5f44",
+                "GHSA-8r5x-fm3f-whwj",
+                "GHSA-9cx6-37pm-9jff",
+                "GHSA-f2jv-r9rf-7988",
+                "GHSA-f52g-6jhx-586p",
+                "GHSA-g9r4-xpmj-mj65",
+                "GHSA-p8wg-vrv2-v86f",
+                "GHSA-q2c6-c6pm-g3gh",
+                "GHSA-q42p-pg8m-cqh6",
+                "GHSA-w457-6q6x-cgp9",
+                "GHSA-xhpv-hc6g-r9c6",
+                "GHSA-xjpj-3mr7-gcpf",
+                "GHSA-xw65-4hp5-5hc7"
+            ],
+            "fixed_versions": [
+                "3.0.7",
+                "3.0.8",
+                "4.0.14",
+                "4.1.2",
+                "4.3.0",
+                "4.4.5",
+                "4.5.2",
+                "4.5.3",
+                "4.7.10",
+                "4.7.7",
+                "4.7.9"
+            ]
+        },
+        {
+            "package_instance_id": "node_modules/nyc/node_modules/minimist",
+            "package_name": "minimist",
+            "installed_version": "0.0.8",
+            "package_path": "node_modules/nyc/node_modules/minimist",
+            "dependency_type": "transitive",
+            "is_direct": false,
+            "vulnerability_count": 2,
+            "highest_severity": "CRITICAL",
+            "highest_cvss_score": 9.8,
+            "vulnerability_ids": [
+                "GHSA-vh95-rmgr-6w4m",
+                "GHSA-xvch-5gv4-984h"
+            ],
+            "fixed_versions": [
+                "0.2.1",
+                "0.2.4",
+                "1.2.3",
+                "1.2.6"
+            ]
+        },
+        {
+            "package_instance_id": "node_modules/tap/node_modules/minimist",
+            "package_name": "minimist",
+            "installed_version": "0.0.8",
+            "package_path": "node_modules/tap/node_modules/minimist",
+            "dependency_type": "transitive",
+            "is_direct": false,
+            "vulnerability_count": 2,
+            "highest_severity": "CRITICAL",
+            "highest_cvss_score": 9.8,
+            "vulnerability_ids": [
+                "GHSA-vh95-rmgr-6w4m",
+                "GHSA-xvch-5gv4-984h"
+            ],
+            "fixed_versions": [
+                "0.2.1",
+                "0.2.4",
+                "1.2.3",
+                "1.2.6"
+            ]
+        },
+        {
+            "package_instance_id": "node_modules/nyc/node_modules/mixin-deep",
+            "package_name": "mixin-deep",
+            "installed_version": "1.3.1",
+            "package_path": "node_modules/nyc/node_modules/mixin-deep",
+            "dependency_type": "transitive",
+            "is_direct": false,
+            "vulnerability_count": 1,
+            "highest_severity": "CRITICAL",
+            "highest_cvss_score": 9.8,
+            "vulnerability_ids": [
+                "GHSA-fhjf-83wg-r2j9"
+            ],
+            "fixed_versions": [
+                "1.3.2",
+                "2.0.1"
+            ]
+        },
+        {
+            "package_instance_id": "node_modules/nyc/node_modules/set-value",
+            "package_name": "set-value",
+            "installed_version": "2.0.0",
+            "package_path": "node_modules/nyc/node_modules/set-value",
+            "dependency_type": "transitive",
+            "is_direct": false,
+            "vulnerability_count": 2,
+            "highest_severity": "CRITICAL",
+            "highest_cvss_score": 9.8,
+            "vulnerability_ids": [
+                "GHSA-4g88-fppr-53pp",
+                "GHSA-4jqc-8m5r-9rpr"
+            ],
+            "fixed_versions": [
+                "2.0.1",
+                "3.0.1",
+                "3.0.3",
+                "4.0.1"
+            ]
+        },
+        {
+            "package_instance_id": "node_modules/nyc/node_modules/union-value/node_modules/set-value",
+            "package_name": "set-value",
+            "installed_version": "0.4.3",
+            "package_path": "node_modules/nyc/node_modules/union-value/node_modules/set-value",
+            "dependency_type": "transitive",
+            "is_direct": false,
+            "vulnerability_count": 2,
+            "highest_severity": "CRITICAL",
+            "highest_cvss_score": 9.8,
+            "vulnerability_ids": [
+                "GHSA-4g88-fppr-53pp",
+                "GHSA-4jqc-8m5r-9rpr"
+            ],
+            "fixed_versions": [
+                "2.0.1",
+                "3.0.1",
+                "3.0.3",
+                "4.0.1"
+            ]
+        },
+        {
+            "package_instance_id": "node_modules/optimist/node_modules/minimist",
+            "package_name": "minimist",
+            "installed_version": "0.0.10",
+            "package_path": "node_modules/optimist/node_modules/minimist",
+            "dependency_type": "transitive",
+            "is_direct": false,
+            "vulnerability_count": 2,
+            "highest_severity": "CRITICAL",
+            "highest_cvss_score": 9.8,
+            "vulnerability_ids": [
+                "GHSA-vh95-rmgr-6w4m",
+                "GHSA-xvch-5gv4-984h"
+            ],
+            "fixed_versions": [
+                "0.2.1",
+                "0.2.4",
+                "1.2.3",
+                "1.2.6"
+            ]
+        },
+        {
+            "package_instance_id": "node_modules/parse-url",
+            "package_name": "parse-url",
+            "installed_version": "5.0.1",
+            "package_path": "node_modules/parse-url",
+            "dependency_type": "transitive",
+            "is_direct": false,
+            "vulnerability_count": 6,
+            "highest_severity": "CRITICAL",
+            "highest_cvss_score": 9.8,
+            "vulnerability_ids": [
+                "GHSA-4p35-cfcx-8653",
+                "GHSA-7f3x-x4pr-wqhj",
+                "GHSA-j9fq-vwqv-2fm2",
+                "GHSA-jpp7-7chh-cf67",
+                "GHSA-pqw5-jmp5-px4v",
+                "GHSA-q6wq-5p59-983w"
+            ],
+            "fixed_versions": [
+                "6.0.1",
+                "8.1.0"
+            ]
+        },
+        {
+            "package_instance_id": "node_modules/typeorm",
+            "package_name": "typeorm",
+            "installed_version": "0.2.24",
+            "package_path": "node_modules/typeorm",
+            "dependency_type": "production",
+            "is_direct": true,
+            "vulnerability_count": 5,
+            "highest_severity": "CRITICAL",
+            "highest_cvss_score": 9.8,
+            "vulnerability_ids": [
+                "GHSA-2rp8-mm9q-fp49",
+                "GHSA-9ggv-8w38-r7pm",
+                "GHSA-fx4w-v43j-vc45",
+                "GHSA-pf2j-9qmp-jqr2",
+                "GHSA-q2pj-6v73-8rgj"
+            ],
+            "fixed_versions": [
+                "0.2.25",
+                "0.3.0",
+                "0.3.26",
+                "0.3.29",
+                "0.3.31",
+                "1.1.0"
+            ]
+        },
+        {
+            "package_instance_id": "node_modules/typeorm/node_modules/minimist",
+            "package_name": "minimist",
+            "installed_version": "1.2.5",
+            "package_path": "node_modules/typeorm/node_modules/minimist",
+            "dependency_type": "transitive",
+            "is_direct": false,
+            "vulnerability_count": 1,
+            "highest_severity": "CRITICAL",
+            "highest_cvss_score": 9.8,
+            "vulnerability_ids": [
+                "GHSA-xvch-5gv4-984h"
+            ],
+            "fixed_versions": [
+                "0.2.4",
+                "1.2.6"
+            ]
+        },
+        {
+            "package_instance_id": "node_modules/underscore",
+            "package_name": "underscore",
+            "installed_version": "1.9.1",
+            "package_path": "node_modules/underscore",
+            "dependency_type": "transitive",
+            "is_direct": false,
+            "vulnerability_count": 2,
+            "highest_severity": "CRITICAL",
+            "highest_cvss_score": 9.8,
+            "vulnerability_ids": [
+                "GHSA-cf4h-3jhx-xvhq",
+                "GHSA-qpx9-hpmf-5gmw"
+            ],
+            "fixed_versions": [
+                "1.12.1",
+                "1.13.8"
+            ]
+        },
+        {
+            "package_instance_id": "node_modules/nyc/node_modules/babel-traverse",
+            "package_name": "babel-traverse",
+            "installed_version": "6.26.0",
+            "package_path": "node_modules/nyc/node_modules/babel-traverse",
+            "dependency_type": "transitive",
+            "is_direct": false,
+            "vulnerability_count": 1,
+            "highest_severity": "CRITICAL",
+            "highest_cvss_score": 9.3,
+            "vulnerability_ids": [
+                "GHSA-67hx-6x53-jw92"
+            ],
+            "fixed_versions": []
+        },
+        {
+            "package_instance_id": "node_modules/cipher-base",
+            "package_name": "cipher-base",
+            "installed_version": "1.0.4",
+            "package_path": "node_modules/cipher-base",
+            "dependency_type": "transitive",
+            "is_direct": false,
+            "vulnerability_count": 1,
+            "highest_severity": "CRITICAL",
+            "highest_cvss_score": 9.1,
+            "vulnerability_ids": [
+                "GHSA-cpq7-6gpm-g9rc"
+            ],
+            "fixed_versions": [
+                "1.0.5"
+            ]
+        },
+        {
+            "package_instance_id": "node_modules/lodash",
+            "package_name": "lodash",
+            "installed_version": "4.17.4",
+            "package_path": "node_modules/lodash",
+            "dependency_type": "production",
+            "is_direct": true,
+            "vulnerability_count": 9,
+            "highest_severity": "CRITICAL",
+            "highest_cvss_score": 9.1,
+            "vulnerability_ids": [
+                "GHSA-29mw-wpgm-hmr9",
+                "GHSA-35jh-r3h4-6jhm",
+                "GHSA-4xc9-xhrj-v574",
+                "GHSA-fvqr-27wr-82fm",
+                "GHSA-jf85-cpcp-j695",
+                "GHSA-p6mc-m468-83gw",
+                "GHSA-r5fr-rjxr-66jc",
+                "GHSA-x5rq-j2xg-h7qm",
+                "GHSA-xxjr-mmjv-4gpg"
+            ],
+            "fixed_versions": [
+                "4.17.11",
+                "4.17.12",
+                "4.17.19",
+                "4.17.21",
+                "4.17.23",
+                "4.17.5",
+                "4.18.0"
+            ]
+        },
+        {
+            "package_instance_id": "node_modules/netmask",
+            "package_name": "netmask",
+            "installed_version": "1.0.6",
+            "package_path": "node_modules/netmask",
+            "dependency_type": "transitive",
+            "is_direct": false,
+            "vulnerability_count": 2,
+            "highest_severity": "CRITICAL",
+            "highest_cvss_score": 9.1,
+            "vulnerability_ids": [
+                "GHSA-4c7m-wxvm-r7gc",
+                "GHSA-pch5-whg9-qr2r"
+            ],
+            "fixed_versions": [
+                "1.1.0",
+                "2.0.1"
+            ]
+        },
+        {
+            "package_instance_id": "node_modules/nyc/node_modules/lodash",
+            "package_name": "lodash",
+            "installed_version": "4.17.10",
+            "package_path": "node_modules/nyc/node_modules/lodash",
+            "dependency_type": "transitive",
+            "is_direct": false,
+            "vulnerability_count": 8,
+            "highest_severity": "CRITICAL",
+            "highest_cvss_score": 9.1,
+            "vulnerability_ids": [
+                "GHSA-29mw-wpgm-hmr9",
+                "GHSA-35jh-r3h4-6jhm",
+                "GHSA-4xc9-xhrj-v574",
+                "GHSA-jf85-cpcp-j695",
+                "GHSA-p6mc-m468-83gw",
+                "GHSA-r5fr-rjxr-66jc",
+                "GHSA-x5rq-j2xg-h7qm",
+                "GHSA-xxjr-mmjv-4gpg"
+            ],
+            "fixed_versions": [
+                "4.17.11",
+                "4.17.12",
+                "4.17.19",
+                "4.17.21",
+                "4.17.23",
+                "4.18.0"
+            ]
+        },
+        {
+            "package_instance_id": "node_modules/sha.js",
+            "package_name": "sha.js",
+            "installed_version": "2.4.11",
+            "package_path": "node_modules/sha.js",
+            "dependency_type": "transitive",
+            "is_direct": false,
+            "vulnerability_count": 1,
+            "highest_severity": "CRITICAL",
+            "highest_cvss_score": 9.1,
+            "vulnerability_ids": [
+                "GHSA-95m3-7q98-8xr5"
+            ],
+            "fixed_versions": [
+                "2.4.12"
+            ]
+        },
+        {
+            "package_instance_id": "node_modules/elliptic",
+            "package_name": "elliptic",
+            "installed_version": "6.4.1",
+            "package_path": "node_modules/elliptic",
+            "dependency_type": "transitive",
+            "is_direct": false,
+            "vulnerability_count": 9,
+            "highest_severity": "CRITICAL",
+            "highest_cvss_score": 7.7,
+            "vulnerability_ids": [
+                "GHSA-434g-2637-qmqr",
+                "GHSA-49q7-c7j4-3p7m",
+                "GHSA-848j-6mx2-7j84",
+                "GHSA-977x-g7h5-7qgw",
+                "GHSA-f7q4-pwc6-w24p",
+                "GHSA-fc9h-whq2-v747",
+                "GHSA-r9p9-mrjm-926w",
+                "GHSA-vh7m-p724-62c2",
+                "GHSA-vjh7-7g9h-fjfh"
+            ],
+            "fixed_versions": [
+                "6.5.3",
+                "6.5.4",
+                "6.5.6",
+                "6.5.7",
+                "6.6.0",
+                "6.6.1"
+            ]
+        },
+        {
+            "package_instance_id": "node_modules/form-data",
+            "package_name": "form-data",
+            "installed_version": "2.3.3",
+            "package_path": "node_modules/form-data",
+            "dependency_type": "transitive",
+            "is_direct": false,
+            "vulnerability_count": 2,
+            "highest_severity": "CRITICAL",
+            "highest_cvss_score": 7.5,
+            "vulnerability_ids": [
+                "GHSA-fjxv-7rqg-78g4",
+                "GHSA-hmw2-7cc7-3qxx"
+            ],
+            "fixed_versions": [
+                "2.5.4",
+                "2.5.6",
+                "3.0.4",
+                "3.0.5",
+                "4.0.4",
+                "4.0.6"
+            ]
+        },
+        {
+            "package_instance_id": "node_modules/pbkdf2",
+            "package_name": "pbkdf2",
+            "installed_version": "3.0.17",
+            "package_path": "node_modules/pbkdf2",
+            "dependency_type": "transitive",
+            "is_direct": false,
+            "vulnerability_count": 3,
+            "highest_severity": "CRITICAL",
+            "highest_cvss_score": 3.7,
+            "vulnerability_ids": [
+                "GHSA-477h-4r7f-fvrx",
+                "GHSA-h7cp-r72f-jxh6",
+                "GHSA-v62p-rq8g-8h59"
+            ],
+            "fixed_versions": [
+                "3.1.3",
+                "3.1.7"
+            ]
+        },
+        {
+            "package_instance_id": "node_modules/dustjs-linkedin",
+            "package_name": "dustjs-linkedin",
+            "installed_version": "2.5.0",
+            "package_path": "node_modules/dustjs-linkedin",
+            "dependency_type": "production",
+            "is_direct": true,
+            "vulnerability_count": 1,
+            "highest_severity": "HIGH",
+            "highest_cvss_score": 8.8,
+            "vulnerability_ids": [
+                "GHSA-c6rp-wrp9-qr4q"
+            ],
+            "fixed_versions": [
+                "3.0.0"
+            ]
+        },
+        {
+            "package_instance_id": "node_modules/snyk",
+            "package_name": "snyk",
+            "installed_version": "1.278.1",
+            "package_path": "node_modules/snyk",
+            "dependency_type": "development",
+            "is_direct": true,
+            "vulnerability_count": 4,
+            "highest_severity": "HIGH",
+            "highest_cvss_score": 8.8,
+            "vulnerability_ids": [
+                "GHSA-4vrv-93c7-m92j",
+                "GHSA-4x6g-3cmx-w76r",
+                "GHSA-6hwc-9h8r-3vmf",
+                "GHSA-hpqj-7cj6-hfj8"
+            ],
+            "fixed_versions": [
+                "1.1064.0",
+                "1.1297.3",
+                "1.996.0"
+            ]
+        },
+        {
+            "package_instance_id": "node_modules/toml",
+            "package_name": "toml",
+            "installed_version": "3.0.0",
+            "package_path": "node_modules/toml",
+            "dependency_type": "transitive",
+            "is_direct": false,
+            "vulnerability_count": 6,
+            "highest_severity": "HIGH",
+            "highest_cvss_score": 8.2,
+            "vulnerability_ids": [
+                "GHSA-4qx8-w7c3-pj3p",
+                "GHSA-82x6-q7mm-w9cf",
+                "GHSA-9j65-hcg3-gc64",
+                "GHSA-9qmh-m7c6-f92p",
+                "GHSA-h895-cgqg-jf52",
+                "GHSA-v5mp-jgw5-2x6j"
+            ],
+            "fixed_versions": [
+                "4.1.2",
+                "4.2.0",
+                "5.0.1"
+            ]
+        },
+        {
+            "package_instance_id": "node_modules/@snyk/composer-lockfile-parser/node_modules/lodash",
+            "package_name": "lodash",
+            "installed_version": "4.17.15",
+            "package_path": "node_modules/@snyk/composer-lockfile-parser/node_modules/lodash",
+            "dependency_type": "transitive",
+            "is_direct": false,
+            "vulnerability_count": 5,
+            "highest_severity": "HIGH",
+            "highest_cvss_score": 8.1,
+            "vulnerability_ids": [
+                "GHSA-29mw-wpgm-hmr9",
+                "GHSA-35jh-r3h4-6jhm",
+                "GHSA-p6mc-m468-83gw",
+                "GHSA-r5fr-rjxr-66jc",
+                "GHSA-xxjr-mmjv-4gpg"
+            ],
+            "fixed_versions": [
+                "4.17.19",
+                "4.17.21",
+                "4.17.23",
+                "4.18.0"
+            ]
+        },
+        {
+            "package_instance_id": "node_modules/@snyk/ruby-semver/node_modules/lodash",
+            "package_name": "lodash",
+            "installed_version": "4.17.15",
+            "package_path": "node_modules/@snyk/ruby-semver/node_modules/lodash",
+            "dependency_type": "transitive",
+            "is_direct": false,
+            "vulnerability_count": 5,
+            "highest_severity": "HIGH",
+            "highest_cvss_score": 8.1,
+            "vulnerability_ids": [
+                "GHSA-29mw-wpgm-hmr9",
+                "GHSA-35jh-r3h4-6jhm",
+                "GHSA-p6mc-m468-83gw",
+                "GHSA-r5fr-rjxr-66jc",
+                "GHSA-xxjr-mmjv-4gpg"
+            ],
+            "fixed_versions": [
+                "4.17.19",
+                "4.17.21",
+                "4.17.23",
+                "4.18.0"
+            ]
+        },
+        {
+            "package_instance_id": "node_modules/dotnet-deps-parser/node_modules/lodash",
+            "package_name": "lodash",
+            "installed_version": "4.17.15",
+            "package_path": "node_modules/dotnet-deps-parser/node_modules/lodash",
+            "dependency_type": "transitive",
+            "is_direct": false,
+            "vulnerability_count": 5,
+            "highest_severity": "HIGH",
+            "highest_cvss_score": 8.1,
+            "vulnerability_ids": [
+                "GHSA-29mw-wpgm-hmr9",
+                "GHSA-35jh-r3h4-6jhm",
+                "GHSA-p6mc-m468-83gw",
+                "GHSA-r5fr-rjxr-66jc",
+                "GHSA-xxjr-mmjv-4gpg"
+            ],
+            "fixed_versions": [
+                "4.17.19",
+                "4.17.21",
+                "4.17.23",
+                "4.18.0"
+            ]
+        },
+        {
+            "package_instance_id": "node_modules/graphlib/node_modules/lodash",
+            "package_name": "lodash",
+            "installed_version": "4.17.15",
+            "package_path": "node_modules/graphlib/node_modules/lodash",
+            "dependency_type": "transitive",
+            "is_direct": false,
+            "vulnerability_count": 5,
+            "highest_severity": "HIGH",
+            "highest_cvss_score": 8.1,
+            "vulnerability_ids": [
+                "GHSA-29mw-wpgm-hmr9",
+                "GHSA-35jh-r3h4-6jhm",
+                "GHSA-p6mc-m468-83gw",
+                "GHSA-r5fr-rjxr-66jc",
+                "GHSA-xxjr-mmjv-4gpg"
+            ],
+            "fixed_versions": [
+                "4.17.19",
+                "4.17.21",
+                "4.17.23",
+                "4.18.0"
+            ]
+        },
+        {
+            "package_instance_id": "node_modules/inquirer/node_modules/lodash",
+            "package_name": "lodash",
+            "installed_version": "4.17.15",
+            "package_path": "node_modules/inquirer/node_modules/lodash",
+            "dependency_type": "transitive",
+            "is_direct": false,
+            "vulnerability_count": 5,
+            "highest_severity": "HIGH",
+            "highest_cvss_score": 8.1,
+            "vulnerability_ids": [
+                "GHSA-29mw-wpgm-hmr9",
+                "GHSA-35jh-r3h4-6jhm",
+                "GHSA-p6mc-m468-83gw",
+                "GHSA-r5fr-rjxr-66jc",
+                "GHSA-xxjr-mmjv-4gpg"
+            ],
+            "fixed_versions": [
+                "4.17.19",
+                "4.17.21",
+                "4.17.23",
+                "4.18.0"
+            ]
+        },
+        {
+            "package_instance_id": "node_modules/snyk-config/node_modules/lodash",
+            "package_name": "lodash",
+            "installed_version": "4.17.15",
+            "package_path": "node_modules/snyk-config/node_modules/lodash",
+            "dependency_type": "transitive",
+            "is_direct": false,
+            "vulnerability_count": 5,
+            "highest_severity": "HIGH",
+            "highest_cvss_score": 8.1,
+            "vulnerability_ids": [
+                "GHSA-29mw-wpgm-hmr9",
+                "GHSA-35jh-r3h4-6jhm",
+                "GHSA-p6mc-m468-83gw",
+                "GHSA-r5fr-rjxr-66jc",
+                "GHSA-xxjr-mmjv-4gpg"
+            ],
+            "fixed_versions": [
+                "4.17.19",
+                "4.17.21",
+                "4.17.23",
+                "4.18.0"
+            ]
+        },
+        {
+            "package_instance_id": "node_modules/snyk-mvn-plugin/node_modules/lodash",
+            "package_name": "lodash",
+            "installed_version": "4.17.15",
+            "package_path": "node_modules/snyk-mvn-plugin/node_modules/lodash",
+            "dependency_type": "transitive",
+            "is_direct": false,
+            "vulnerability_count": 5,
+            "highest_severity": "HIGH",
+            "highest_cvss_score": 8.1,
+            "vulnerability_ids": [
+                "GHSA-29mw-wpgm-hmr9",
+                "GHSA-35jh-r3h4-6jhm",
+                "GHSA-p6mc-m468-83gw",
+                "GHSA-r5fr-rjxr-66jc",
+                "GHSA-xxjr-mmjv-4gpg"
+            ],
+            "fixed_versions": [
+                "4.17.19",
+                "4.17.21",
+                "4.17.23",
+                "4.18.0"
+            ]
+        },
+        {
+            "package_instance_id": "node_modules/snyk-nodejs-lockfile-parser/node_modules/lodash",
+            "package_name": "lodash",
+            "installed_version": "4.17.15",
+            "package_path": "node_modules/snyk-nodejs-lockfile-parser/node_modules/lodash",
+            "dependency_type": "transitive",
+            "is_direct": false,
+            "vulnerability_count": 5,
+            "highest_severity": "HIGH",
+            "highest_cvss_score": 8.1,
+            "vulnerability_ids": [
+                "GHSA-29mw-wpgm-hmr9",
+                "GHSA-35jh-r3h4-6jhm",
+                "GHSA-p6mc-m468-83gw",
+                "GHSA-r5fr-rjxr-66jc",
+                "GHSA-xxjr-mmjv-4gpg"
+            ],
+            "fixed_versions": [
+                "4.17.19",
+                "4.17.21",
+                "4.17.23",
+                "4.18.0"
+            ]
+        },
+        {
+            "package_instance_id": "node_modules/snyk-nuget-plugin/node_modules/lodash",
+            "package_name": "lodash",
+            "installed_version": "4.17.15",
+            "package_path": "node_modules/snyk-nuget-plugin/node_modules/lodash",
+            "dependency_type": "transitive",
+            "is_direct": false,
+            "vulnerability_count": 5,
+            "highest_severity": "HIGH",
+            "highest_cvss_score": 8.1,
+            "vulnerability_ids": [
+                "GHSA-29mw-wpgm-hmr9",
+                "GHSA-35jh-r3h4-6jhm",
+                "GHSA-p6mc-m468-83gw",
+                "GHSA-r5fr-rjxr-66jc",
+                "GHSA-xxjr-mmjv-4gpg"
+            ],
+            "fixed_versions": [
+                "4.17.19",
+                "4.17.21",
+                "4.17.23",
+                "4.18.0"
+            ]
+        },
+        {
+            "package_instance_id": "node_modules/snyk/node_modules/lodash",
+            "package_name": "lodash",
+            "installed_version": "4.17.15",
+            "package_path": "node_modules/snyk/node_modules/lodash",
+            "dependency_type": "transitive",
+            "is_direct": false,
+            "vulnerability_count": 5,
+            "highest_severity": "HIGH",
+            "highest_cvss_score": 8.1,
+            "vulnerability_ids": [
+                "GHSA-29mw-wpgm-hmr9",
+                "GHSA-35jh-r3h4-6jhm",
+                "GHSA-p6mc-m468-83gw",
+                "GHSA-r5fr-rjxr-66jc",
+                "GHSA-xxjr-mmjv-4gpg"
+            ],
+            "fixed_versions": [
+                "4.17.19",
+                "4.17.21",
+                "4.17.23",
+                "4.18.0"
+            ]
+        },
+        {
+            "package_instance_id": "node_modules/degenerator",
+            "package_name": "degenerator",
+            "installed_version": "1.0.4",
+            "package_path": "node_modules/degenerator",
+            "dependency_type": "transitive",
+            "is_direct": false,
+            "vulnerability_count": 1,
+            "highest_severity": "HIGH",
+            "highest_cvss_score": 8.1,
+            "vulnerability_ids": [
+                "GHSA-9j49-mfvp-vmhm"
+            ],
+            "fixed_versions": [
+                "3.0.1"
+            ]
+        },
+        {
+            "package_instance_id": "node_modules/handlebars/node_modules/lodash",
+            "package_name": "lodash",
+            "installed_version": "4.17.21",
+            "package_path": "node_modules/handlebars/node_modules/lodash",
+            "dependency_type": "transitive",
+            "is_direct": false,
+            "vulnerability_count": 2,
+            "highest_severity": "HIGH",
+            "highest_cvss_score": 8.1,
+            "vulnerability_ids": [
+                "GHSA-r5fr-rjxr-66jc",
+                "GHSA-xxjr-mmjv-4gpg"
+            ],
+            "fixed_versions": [
+                "4.17.23",
+                "4.18.0"
+            ]
+        },
+        {
+            "package_instance_id": "node_modules/ip",
+            "package_name": "ip",
+            "installed_version": "1.1.5",
+            "package_path": "node_modules/ip",
+            "dependency_type": "transitive",
+            "is_direct": false,
+            "vulnerability_count": 2,
+            "highest_severity": "HIGH",
+            "highest_cvss_score": 8.1,
+            "vulnerability_ids": [
+                "GHSA-2p57-rm9w-gvfp",
+                "GHSA-78xj-cgh5-2h22"
+            ],
+            "fixed_versions": [
+                "1.1.9",
+                "2.0.1"
+            ]
+        },
+        {
+            "package_instance_id": "node_modules/pac-resolver",
+            "package_name": "pac-resolver",
+            "installed_version": "3.0.0",
+            "package_path": "node_modules/pac-resolver",
+            "dependency_type": "transitive",
+            "is_direct": false,
+            "vulnerability_count": 1,
+            "highest_severity": "HIGH",
+            "highest_cvss_score": 8.1,
+            "vulnerability_ids": [
+                "GHSA-9j49-mfvp-vmhm"
+            ],
+            "fixed_versions": [
+                "5.0.0"
+            ]
+        },
+        {
+            "package_instance_id": "node_modules/shell-quote",
+            "package_name": "shell-quote",
+            "installed_version": "1.6.1",
+            "package_path": "node_modules/shell-quote",
+            "dependency_type": "transitive",
+            "is_direct": false,
+            "vulnerability_count": 2,
+            "highest_severity": "HIGH",
+            "highest_cvss_score": 8.1,
+            "vulnerability_ids": [
+                "GHSA-395f-4hp3-45gv",
+                "GHSA-w7jw-789q-3m8p"
+            ],
+            "fixed_versions": [
+                "1.8.4",
+                "1.9.0"
+            ]
+        },
+        {
+            "package_instance_id": "node_modules/handlebars/node_modules/async",
+            "package_name": "async",
+            "installed_version": "2.6.3",
+            "package_path": "node_modules/handlebars/node_modules/async",
+            "dependency_type": "transitive",
+            "is_direct": false,
+            "vulnerability_count": 1,
+            "highest_severity": "HIGH",
+            "highest_cvss_score": 7.8,
+            "vulnerability_ids": [
+                "GHSA-fwr7-v2mv-hh25"
+            ],
+            "fixed_versions": [
+                "2.6.4",
+                "3.2.2"
+            ]
+        },
+        {
+            "package_instance_id": "node_modules/kerberos",
+            "package_name": "kerberos",
+            "installed_version": "0.0.24",
+            "package_path": "node_modules/kerberos",
+            "dependency_type": "transitive",
+            "is_direct": false,
+            "vulnerability_count": 1,
+            "highest_severity": "HIGH",
+            "highest_cvss_score": 7.8,
+            "vulnerability_ids": [
+                "GHSA-m2mx-rfpw-jghv"
+            ],
+            "fixed_versions": [
+                "1.0.0"
+            ]
+        },
+        {
+            "package_instance_id": "node_modules/snyk-go-plugin",
+            "package_name": "snyk-go-plugin",
+            "installed_version": "1.11.1",
+            "package_path": "node_modules/snyk-go-plugin",
+            "dependency_type": "transitive",
+            "is_direct": false,
+            "vulnerability_count": 1,
+            "highest_severity": "HIGH",
+            "highest_cvss_score": 7.8,
+            "vulnerability_ids": [
+                "GHSA-hpqj-7cj6-hfj8"
+            ],
+            "fixed_versions": [
+                "1.19.1"
+            ]
+        },
+        {
+            "package_instance_id": "node_modules/@snyk/dep-graph/node_modules/semver",
+            "package_name": "semver",
+            "installed_version": "6.3.0",
+            "package_path": "node_modules/@snyk/dep-graph/node_modules/semver",
+            "dependency_type": "transitive",
+            "is_direct": false,
+            "vulnerability_count": 1,
+            "highest_severity": "HIGH",
+            "highest_cvss_score": 7.5,
+            "vulnerability_ids": [
+                "GHSA-c2qf-rxjj-qqgw"
+            ],
+            "fixed_versions": [
+                "5.7.2",
+                "6.3.1",
+                "7.5.2"
+            ]
+        },
+        {
+            "package_instance_id": "node_modules/nodemon/node_modules/make-dir/node_modules/semver",
+            "package_name": "semver",
+            "installed_version": "6.3.0",
+            "package_path": "node_modules/nodemon/node_modules/make-dir/node_modules/semver",
+            "dependency_type": "transitive",
+            "is_direct": false,
+            "vulnerability_count": 1,
+            "highest_severity": "HIGH",
+            "highest_cvss_score": 7.5,
+            "vulnerability_ids": [
+                "GHSA-c2qf-rxjj-qqgw"
+            ],
+            "fixed_versions": [
+                "5.7.2",
+                "6.3.1",
+                "7.5.2"
+            ]
+        },
+        {
+            "package_instance_id": "node_modules/nodemon/node_modules/package-json/node_modules/semver",
+            "package_name": "semver",
+            "installed_version": "6.3.0",
+            "package_path": "node_modules/nodemon/node_modules/package-json/node_modules/semver",
+            "dependency_type": "transitive",
+            "is_direct": false,
+            "vulnerability_count": 1,
+            "highest_severity": "HIGH",
+            "highest_cvss_score": 7.5,
+            "vulnerability_ids": [
+                "GHSA-c2qf-rxjj-qqgw"
+            ],
+            "fixed_versions": [
+                "5.7.2",
+                "6.3.1",
+                "7.5.2"
+            ]
+        },
+        {
+            "package_instance_id": "node_modules/nodemon/node_modules/semver-diff/node_modules/semver",
+            "package_name": "semver",
+            "installed_version": "6.3.0",
+            "package_path": "node_modules/nodemon/node_modules/semver-diff/node_modules/semver",
+            "dependency_type": "transitive",
+            "is_direct": false,
+            "vulnerability_count": 1,
+            "highest_severity": "HIGH",
+            "highest_cvss_score": 7.5,
+            "vulnerability_ids": [
+                "GHSA-c2qf-rxjj-qqgw"
+            ],
+            "fixed_versions": [
+                "5.7.2",
+                "6.3.1",
+                "7.5.2"
+            ]
+        },
+        {
+            "package_instance_id": "node_modules/snyk-docker-plugin/node_modules/semver",
+            "package_name": "semver",
+            "installed_version": "6.3.0",
+            "package_path": "node_modules/snyk-docker-plugin/node_modules/semver",
+            "dependency_type": "transitive",
+            "is_direct": false,
+            "vulnerability_count": 1,
+            "highest_severity": "HIGH",
+            "highest_cvss_score": 7.5,
+            "vulnerability_ids": [
+                "GHSA-c2qf-rxjj-qqgw"
+            ],
+            "fixed_versions": [
+                "5.7.2",
+                "6.3.1",
+                "7.5.2"
+            ]
+        },
+        {
+            "package_instance_id": "node_modules/snyk-policy/node_modules/semver",
+            "package_name": "semver",
+            "installed_version": "6.3.0",
+            "package_path": "node_modules/snyk-policy/node_modules/semver",
+            "dependency_type": "transitive",
+            "is_direct": false,
+            "vulnerability_count": 1,
+            "highest_severity": "HIGH",
+            "highest_cvss_score": 7.5,
+            "vulnerability_ids": [
+                "GHSA-c2qf-rxjj-qqgw"
+            ],
+            "fixed_versions": [
+                "5.7.2",
+                "6.3.1",
+                "7.5.2"
+            ]
+        },
+        {
+            "package_instance_id": "node_modules/snyk-sbt-plugin/node_modules/semver",
+            "package_name": "semver",
+            "installed_version": "6.3.0",
+            "package_path": "node_modules/snyk-sbt-plugin/node_modules/semver",
+            "dependency_type": "transitive",
+            "is_direct": false,
+            "vulnerability_count": 1,
+            "highest_severity": "HIGH",
+            "highest_cvss_score": 7.5,
+            "vulnerability_ids": [
+                "GHSA-c2qf-rxjj-qqgw"
+            ],
+            "fixed_versions": [
+                "5.7.2",
+                "6.3.1",
+                "7.5.2"
+            ]
+        },
+        {
+            "package_instance_id": "node_modules/snyk/node_modules/semver",
+            "package_name": "semver",
+            "installed_version": "6.3.0",
+            "package_path": "node_modules/snyk/node_modules/semver",
+            "dependency_type": "transitive",
+            "is_direct": false,
+            "vulnerability_count": 1,
+            "highest_severity": "HIGH",
+            "highest_cvss_score": 7.5,
+            "vulnerability_ids": [
+                "GHSA-c2qf-rxjj-qqgw"
+            ],
+            "fixed_versions": [
+                "5.7.2",
+                "6.3.1",
+                "7.5.2"
+            ]
+        },
+        {
+            "package_instance_id": "node_modules/adm-zip",
+            "package_name": "adm-zip",
+            "installed_version": "0.4.7",
+            "package_path": "node_modules/adm-zip",
+            "dependency_type": "production",
+            "is_direct": true,
+            "vulnerability_count": 8,
+            "highest_severity": "HIGH",
+            "highest_cvss_score": 7.5,
+            "vulnerability_ids": [
+                "GHSA-3v6h-hqm4-2rg6",
+                "GHSA-7q85-xj36-vmfc",
+                "GHSA-8238-w5pm-2374",
+                "GHSA-c6fg-446q-cg94",
+                "GHSA-j5f4-cc29-5x44",
+                "GHSA-p634-w6r4-rjp2",
+                "GHSA-rcw4-f5rp-g42v",
+                "GHSA-xcpc-8h2w-3j85"
+            ],
+            "fixed_versions": [
+                "0.4.11",
+                "0.6.0",
+                "0.6.1"
+            ]
+        },
+        {
+            "package_instance_id": "node_modules/body-parser",
+            "package_name": "body-parser",
+            "installed_version": "1.9.0",
+            "package_path": "node_modules/body-parser",
+            "dependency_type": "production",
+            "is_direct": true,
+            "vulnerability_count": 3,
+            "highest_severity": "HIGH",
+            "highest_cvss_score": 7.5,
+            "vulnerability_ids": [
+                "GHSA-27r3-jxmh-p828",
+                "GHSA-qwcr-r2fm-qrc7",
+                "GHSA-v422-hmwv-36x6"
+            ],
+            "fixed_versions": [
+                "1.20.3",
+                "1.20.6",
+                "1.20.9",
+                "2.3.0",
+                "2.4.0"
+            ]
+        },
+        {
+            "package_instance_id": "node_modules/brace-expansion",
+            "package_name": "brace-expansion",
+            "installed_version": "1.1.11",
+            "package_path": "node_modules/brace-expansion",
+            "dependency_type": "transitive",
+            "is_direct": false,
+            "vulnerability_count": 8,
+            "highest_severity": "HIGH",
+            "highest_cvss_score": 7.5,
+            "vulnerability_ids": [
+                "GHSA-3jxr-9vmj-r5cp",
+                "GHSA-6j4f-fj2g-mc7p",
+                "GHSA-f886-m6hf-6m8v",
+                "GHSA-mh99-v99m-4gvg",
+                "GHSA-q2hr-2g5m-vwhr",
+                "GHSA-qhr7-859c-m2p7",
+                "GHSA-rgw5-rvv9-x895",
+                "GHSA-v6h2-p8h4-qcjw"
+            ],
+            "fixed_versions": [
+                "1.1.12",
+                "1.1.13",
+                "1.1.16",
+                "1.1.17",
+                "1.1.18",
+                "1.1.19",
+                "1.1.20",
+                "1.1.21",
+                "2.0.2",
+                "2.0.3",
+                "2.1.2",
+                "2.1.3",
+                "2.1.4",
+                "2.1.5",
+                "2.1.6",
+                "2.1.7",
+                "3.0.1",
+                "3.0.2",
+                "3.0.3",
+                "3.0.6",
+                "3.0.7",
+                "3.0.8",
+                "3.0.9",
+                "4.0.1",
+                "5.0.10",
+                "5.0.11",
+                "5.0.12",
+                "5.0.5",
+                "5.0.7",
+                "5.0.8",
+                "5.0.9"
+            ]
+        },
+        {
+            "package_instance_id": "node_modules/nyc/node_modules/brace-expansion",
+            "package_name": "brace-expansion",
+            "installed_version": "1.1.11",
+            "package_path": "node_modules/nyc/node_modules/brace-expansion",
+            "dependency_type": "transitive",
+            "is_direct": false,
+            "vulnerability_count": 8,
+            "highest_severity": "HIGH",
+            "highest_cvss_score": 7.5,
+            "vulnerability_ids": [
+                "GHSA-3jxr-9vmj-r5cp",
+                "GHSA-6j4f-fj2g-mc7p",
+                "GHSA-f886-m6hf-6m8v",
+                "GHSA-mh99-v99m-4gvg",
+                "GHSA-q2hr-2g5m-vwhr",
+                "GHSA-qhr7-859c-m2p7",
+                "GHSA-rgw5-rvv9-x895",
+                "GHSA-v6h2-p8h4-qcjw"
+            ],
+            "fixed_versions": [
+                "1.1.12",
+                "1.1.13",
+                "1.1.16",
+                "1.1.17",
+                "1.1.18",
+                "1.1.19",
+                "1.1.20",
+                "1.1.21",
+                "2.0.2",
+                "2.0.3",
+                "2.1.2",
+                "2.1.3",
+                "2.1.4",
+                "2.1.5",
+                "2.1.6",
+                "2.1.7",
+                "3.0.1",
+                "3.0.2",
+                "3.0.3",
+                "3.0.6",
+                "3.0.7",
+                "3.0.8",
+                "3.0.9",
+                "4.0.1",
+                "5.0.10",
+                "5.0.11",
+                "5.0.12",
+                "5.0.5",
+                "5.0.7",
+                "5.0.8",
+                "5.0.9"
+            ]
+        },
+        {
+            "package_instance_id": "node_modules/braces",
+            "package_name": "braces",
+            "installed_version": "3.0.2",
+            "package_path": "node_modules/braces",
+            "dependency_type": "transitive",
+            "is_direct": false,
+            "vulnerability_count": 1,
+            "highest_severity": "HIGH",
+            "highest_cvss_score": 7.5,
+            "vulnerability_ids": [
+                "GHSA-grv7-fg5c-xmjg"
+            ],
+            "fixed_versions": [
+                "3.0.3"
+            ]
+        },
+        {
+            "package_instance_id": "node_modules/browserify-sign",
+            "package_name": "browserify-sign",
+            "installed_version": "4.0.4",
+            "package_path": "node_modules/browserify-sign",
+            "dependency_type": "transitive",
+            "is_direct": false,
+            "vulnerability_count": 1,
+            "highest_severity": "HIGH",
+            "highest_cvss_score": 7.5,
+            "vulnerability_ids": [
+                "GHSA-x9w5-v3q2-3rhw"
+            ],
+            "fixed_versions": [
+                "4.2.2"
+            ]
+        },
+        {
+            "package_instance_id": "node_modules/cli-highlight/node_modules/ansi-regex",
+            "package_name": "ansi-regex",
+            "installed_version": "5.0.0",
+            "package_path": "node_modules/cli-highlight/node_modules/ansi-regex",
+            "dependency_type": "transitive",
+            "is_direct": false,
+            "vulnerability_count": 1,
+            "highest_severity": "HIGH",
+            "highest_cvss_score": 7.5,
+            "vulnerability_ids": [
+                "GHSA-93q8-gq69-wqmw"
+            ],
+            "fixed_versions": [
+                "3.0.1",
+                "4.1.1",
+                "5.0.1",
+                "6.0.1"
+            ]
+        },
+        {
+            "package_instance_id": "node_modules/nodemon/node_modules/string-width/node_modules/ansi-regex",
+            "package_name": "ansi-regex",
+            "installed_version": "5.0.0",
+            "package_path": "node_modules/nodemon/node_modules/string-width/node_modules/ansi-regex",
+            "dependency_type": "transitive",
+            "is_direct": false,
+            "vulnerability_count": 1,
+            "highest_severity": "HIGH",
+            "highest_cvss_score": 7.5,
+            "vulnerability_ids": [
+                "GHSA-93q8-gq69-wqmw"
+            ],
+            "fixed_versions": [
+                "3.0.1",
+                "4.1.1",
+                "5.0.1",
+                "6.0.1"
+            ]
+        },
+        {
+            "package_instance_id": "node_modules/cross-spawn",
+            "package_name": "cross-spawn",
+            "installed_version": "4.0.2",
+            "package_path": "node_modules/cross-spawn",
+            "dependency_type": "transitive",
+            "is_direct": false,
+            "vulnerability_count": 1,
+            "highest_severity": "HIGH",
+            "highest_cvss_score": 7.5,
+            "vulnerability_ids": [
+                "GHSA-3xgq-45jj-v275"
+            ],
+            "fixed_versions": [
+                "6.0.6",
+                "7.0.5"
+            ]
+        },
+        {
+            "package_instance_id": "node_modules/nyc/node_modules/cross-spawn",
+            "package_name": "cross-spawn",
+            "installed_version": "4.0.2",
+            "package_path": "node_modules/nyc/node_modules/cross-spawn",
+            "dependency_type": "transitive",
+            "is_direct": false,
+            "vulnerability_count": 1,
+            "highest_severity": "HIGH",
+            "highest_cvss_score": 7.5,
+            "vulnerability_ids": [
+                "GHSA-3xgq-45jj-v275"
+            ],
+            "fixed_versions": [
+                "6.0.6",
+                "7.0.5"
+            ]
+        },
+        {
+            "package_instance_id": "node_modules/dicer",
+            "package_name": "dicer",
+            "installed_version": "0.3.0",
+            "package_path": "node_modules/dicer",
+            "dependency_type": "transitive",
+            "is_direct": false,
+            "vulnerability_count": 1,
+            "highest_severity": "HIGH",
+            "highest_cvss_score": 7.5,
+            "vulnerability_ids": [
+                "GHSA-wm7h-9275-46v2"
+            ],
+            "fixed_versions": []
+        },
+        {
+            "package_instance_id": "node_modules/execa/node_modules/cross-spawn",
+            "package_name": "cross-spawn",
+            "installed_version": "6.0.5",
+            "package_path": "node_modules/execa/node_modules/cross-spawn",
+            "dependency_type": "transitive",
+            "is_direct": false,
+            "vulnerability_count": 1,
+            "highest_severity": "HIGH",
+            "highest_cvss_score": 7.5,
+            "vulnerability_ids": [
+                "GHSA-3xgq-45jj-v275"
+            ],
+            "fixed_versions": [
+                "6.0.6",
+                "7.0.5"
+            ]
+        },
+        {
+            "package_instance_id": "node_modules/express/node_modules/debug",
+            "package_name": "debug",
+            "installed_version": "2.2.0",
+            "package_path": "node_modules/express/node_modules/debug",
+            "dependency_type": "transitive",
+            "is_direct": false,
+            "vulnerability_count": 2,
+            "highest_severity": "HIGH",
+            "highest_cvss_score": 7.5,
+            "vulnerability_ids": [
+                "GHSA-9vvw-cc9w-f27h",
+                "GHSA-gxpj-cx7g-858c"
+            ],
+            "fixed_versions": [
+                "2.6.9",
+                "3.1.0",
+                "3.2.7",
+                "4.3.1"
+            ]
+        },
+        {
+            "package_instance_id": "node_modules/finalhandler/node_modules/debug",
+            "package_name": "debug",
+            "installed_version": "2.2.0",
+            "package_path": "node_modules/finalhandler/node_modules/debug",
+            "dependency_type": "transitive",
+            "is_direct": false,
+            "vulnerability_count": 2,
+            "highest_severity": "HIGH",
+            "highest_cvss_score": 7.5,
+            "vulnerability_ids": [
+                "GHSA-9vvw-cc9w-f27h",
+                "GHSA-gxpj-cx7g-858c"
+            ],
+            "fixed_versions": [
+                "2.6.9",
+                "3.1.0",
+                "3.2.7",
+                "4.3.1"
+            ]
+        },
+        {
+            "package_instance_id": "node_modules/mquery/node_modules/debug",
+            "package_name": "debug",
+            "installed_version": "2.2.0",
+            "package_path": "node_modules/mquery/node_modules/debug",
+            "dependency_type": "transitive",
+            "is_direct": false,
+            "vulnerability_count": 2,
+            "highest_severity": "HIGH",
+            "highest_cvss_score": 7.5,
+            "vulnerability_ids": [
+                "GHSA-9vvw-cc9w-f27h",
+                "GHSA-gxpj-cx7g-858c"
+            ],
+            "fixed_versions": [
+                "2.6.9",
+                "3.1.0",
+                "3.2.7",
+                "4.3.1"
+            ]
+        },
+        {
+            "package_instance_id": "node_modules/send/node_modules/debug",
+            "package_name": "debug",
+            "installed_version": "2.2.0",
+            "package_path": "node_modules/send/node_modules/debug",
+            "dependency_type": "transitive",
+            "is_direct": false,
+            "vulnerability_count": 2,
+            "highest_severity": "HIGH",
+            "highest_cvss_score": 7.5,
+            "vulnerability_ids": [
+                "GHSA-9vvw-cc9w-f27h",
+                "GHSA-gxpj-cx7g-858c"
+            ],
+            "fixed_versions": [
+                "2.6.9",
+                "3.1.0",
+                "3.2.7",
+                "4.3.1"
+            ]
+        },
+        {
+            "package_instance_id": "node_modules/express/node_modules/qs",
+            "package_name": "qs",
+            "installed_version": "2.4.2",
+            "package_path": "node_modules/express/node_modules/qs",
+            "dependency_type": "transitive",
+            "is_direct": false,
+            "vulnerability_count": 4,
+            "highest_severity": "HIGH",
+            "highest_cvss_score": 7.5,
+            "vulnerability_ids": [
+                "GHSA-4mjr-xmp4-gh2g",
+                "GHSA-6rw7-vpxm-498p",
+                "GHSA-gqgv-6jq5-jjj9",
+                "GHSA-hrpp-h998-j3pp"
+            ],
+            "fixed_versions": [
+                "6.0.4",
+                "6.1.2",
+                "6.10.3",
+                "6.14.1",
+                "6.16.0",
+                "6.2.3",
+                "6.2.4",
+                "6.3.2",
+                "6.3.3",
+                "6.4.1",
+                "6.5.3",
+                "6.6.1",
+                "6.7.3",
+                "6.8.3",
+                "6.9.7"
+            ]
+        },
+        {
+            "package_instance_id": "node_modules/fresh",
+            "package_name": "fresh",
+            "installed_version": "0.2.4",
+            "package_path": "node_modules/fresh",
+            "dependency_type": "transitive",
+            "is_direct": false,
+            "vulnerability_count": 1,
+            "highest_severity": "HIGH",
+            "highest_cvss_score": 7.5,
+            "vulnerability_ids": [
+                "GHSA-9qj9-36jm-prpv"
+            ],
+            "fixed_versions": [
+                "0.5.2"
+            ]
+        },
+        {
+            "package_instance_id": "node_modules/http-cache-semantics",
+            "package_name": "http-cache-semantics",
+            "installed_version": "4.1.0",
+            "package_path": "node_modules/http-cache-semantics",
+            "dependency_type": "transitive",
+            "is_direct": false,
+            "vulnerability_count": 1,
+            "highest_severity": "HIGH",
+            "highest_cvss_score": 7.5,
+            "vulnerability_ids": [
+                "GHSA-rc47-6667-2j5j"
+            ],
+            "fixed_versions": [
+                "4.1.1"
+            ]
+        },
+        {
+            "package_instance_id": "node_modules/humanize-ms/node_modules/ms",
+            "package_name": "ms",
+            "installed_version": "0.6.2",
+            "package_path": "node_modules/humanize-ms/node_modules/ms",
+            "dependency_type": "transitive",
+            "is_direct": false,
+            "vulnerability_count": 2,
+            "highest_severity": "HIGH",
+            "highest_cvss_score": 7.5,
+            "vulnerability_ids": [
+                "GHSA-3fx5-fwvr-xrjg",
+                "GHSA-w9mr-4mfr-499f"
+            ],
+            "fixed_versions": [
+                "0.7.1",
+                "2.0.0"
+            ]
+        },
+        {
+            "package_instance_id": "node_modules/inquirer/node_modules/ansi-regex",
+            "package_name": "ansi-regex",
+            "installed_version": "4.1.0",
+            "package_path": "node_modules/inquirer/node_modules/ansi-regex",
+            "dependency_type": "transitive",
+            "is_direct": false,
+            "vulnerability_count": 1,
+            "highest_severity": "HIGH",
+            "highest_cvss_score": 7.5,
+            "vulnerability_ids": [
+                "GHSA-93q8-gq69-wqmw"
+            ],
+            "fixed_versions": [
+                "3.0.1",
+                "4.1.1",
+                "5.0.1",
+                "6.0.1"
+            ]
+        },
+        {
+            "package_instance_id": "node_modules/nodemon/node_modules/ansi-regex",
+            "package_name": "ansi-regex",
+            "installed_version": "4.1.0",
+            "package_path": "node_modules/nodemon/node_modules/ansi-regex",
+            "dependency_type": "transitive",
+            "is_direct": false,
+            "vulnerability_count": 1,
+            "highest_severity": "HIGH",
+            "highest_cvss_score": 7.5,
+            "vulnerability_ids": [
+                "GHSA-93q8-gq69-wqmw"
+            ],
+            "fixed_versions": [
+                "3.0.1",
+                "4.1.1",
+                "5.0.1",
+                "6.0.1"
+            ]
+        },
+        {
+            "package_instance_id": "node_modules/snyk/node_modules/ansi-regex",
+            "package_name": "ansi-regex",
+            "installed_version": "4.1.0",
+            "package_path": "node_modules/snyk/node_modules/ansi-regex",
+            "dependency_type": "transitive",
+            "is_direct": false,
+            "vulnerability_count": 1,
+            "highest_severity": "HIGH",
+            "highest_cvss_score": 7.5,
+            "vulnerability_ids": [
+                "GHSA-93q8-gq69-wqmw"
+            ],
+            "fixed_versions": [
+                "3.0.1",
+                "4.1.1",
+                "5.0.1",
+                "6.0.1"
+            ]
+        },
+        {
+            "package_instance_id": "node_modules/typeorm/node_modules/ansi-regex",
+            "package_name": "ansi-regex",
+            "installed_version": "4.1.0",
+            "package_path": "node_modules/typeorm/node_modules/ansi-regex",
+            "dependency_type": "transitive",
+            "is_direct": false,
+            "vulnerability_count": 1,
+            "highest_severity": "HIGH",
+            "highest_cvss_score": 7.5,
+            "vulnerability_ids": [
+                "GHSA-93q8-gq69-wqmw"
+            ],
+            "fixed_versions": [
+                "3.0.1",
+                "4.1.1",
+                "5.0.1",
+                "6.0.1"
+            ]
+        },
+        {
+            "package_instance_id": "node_modules/wrap-ansi/node_modules/ansi-regex",
+            "package_name": "ansi-regex",
+            "installed_version": "4.1.0",
+            "package_path": "node_modules/wrap-ansi/node_modules/ansi-regex",
+            "dependency_type": "transitive",
+            "is_direct": false,
+            "vulnerability_count": 1,
+            "highest_severity": "HIGH",
+            "highest_cvss_score": 7.5,
+            "vulnerability_ids": [
+                "GHSA-93q8-gq69-wqmw"
+            ],
+            "fixed_versions": [
+                "3.0.1",
+                "4.1.1",
+                "5.0.1",
+                "6.0.1"
+            ]
+        },
+        {
+            "package_instance_id": "node_modules/js-yaml",
+            "package_name": "js-yaml",
+            "installed_version": "3.13.1",
+            "package_path": "node_modules/js-yaml",
+            "dependency_type": "transitive",
+            "is_direct": false,
+            "vulnerability_count": 5,
+            "highest_severity": "HIGH",
+            "highest_cvss_score": 7.5,
+            "vulnerability_ids": [
+                "GHSA-2883-xcg3-v3hh",
+                "GHSA-52cp-r559-cp3m",
+                "GHSA-5p4m-2wfm-xmqj",
+                "GHSA-h67p-54hq-rp68",
+                "GHSA-mh29-5h37-fv8m"
+            ],
+            "fixed_versions": [
+                "3.14.2",
+                "3.15.0",
+                "3.15.1",
+                "3.15.2",
+                "4.1.1",
+                "4.2.0",
+                "4.3.0",
+                "4.3.1",
+                "4.3.2"
+            ]
+        },
+        {
+            "package_instance_id": "node_modules/marked",
+            "package_name": "marked",
+            "installed_version": "0.3.5",
+            "package_path": "node_modules/marked",
+            "dependency_type": "production",
+            "is_direct": true,
+            "vulnerability_count": 6,
+            "highest_severity": "HIGH",
+            "highest_cvss_score": 7.5,
+            "vulnerability_ids": [
+                "GHSA-5v2h-r2cx-5xgj",
+                "GHSA-7px7-7xjx-hxm8",
+                "GHSA-p9wx-2529-fp83",
+                "GHSA-rrrm-qjm4-v8hf",
+                "GHSA-vfvf-mqq8-rwqc",
+                "GHSA-x5pg-88wf-qq4p"
+            ],
+            "fixed_versions": [
+                "0.3.17",
+                "0.3.6",
+                "0.3.7",
+                "0.3.9",
+                "4.0.10"
+            ]
+        },
+        {
+            "package_instance_id": "node_modules/mime",
+            "package_name": "mime",
+            "installed_version": "1.3.4",
+            "package_path": "node_modules/mime",
+            "dependency_type": "transitive",
+            "is_direct": false,
+            "vulnerability_count": 1,
+            "highest_severity": "HIGH",
+            "highest_cvss_score": 7.5,
+            "vulnerability_ids": [
+                "GHSA-wrvr-8mpx-r7pp"
+            ],
+            "fixed_versions": [
+                "1.4.1",
+                "2.0.3"
+            ]
+        },
+        {
+            "package_instance_id": "node_modules/minimatch",
+            "package_name": "minimatch",
+            "installed_version": "3.0.4",
+            "package_path": "node_modules/minimatch",
+            "dependency_type": "transitive",
+            "is_direct": false,
+            "vulnerability_count": 4,
+            "highest_severity": "HIGH",
+            "highest_cvss_score": 7.5,
+            "vulnerability_ids": [
+                "GHSA-23c5-xmqv-rm74",
+                "GHSA-3ppc-4f35-3m26",
+                "GHSA-7r86-cg39-jmmj",
+                "GHSA-f8q6-p94x-37v3"
+            ],
+            "fixed_versions": [
+                "10.2.1",
+                "10.2.3",
+                "3.0.5",
+                "3.1.3",
+                "3.1.4",
+                "4.2.4",
+                "4.2.5",
+                "5.1.7",
+                "5.1.8",
+                "6.2.1",
+                "6.2.2",
+                "7.4.7",
+                "7.4.8",
+                "8.0.5",
+                "8.0.6",
+                "9.0.6",
+                "9.0.7"
+            ]
+        },
+        {
+            "package_instance_id": "node_modules/nyc/node_modules/minimatch",
+            "package_name": "minimatch",
+            "installed_version": "3.0.4",
+            "package_path": "node_modules/nyc/node_modules/minimatch",
+            "dependency_type": "transitive",
+            "is_direct": false,
+            "vulnerability_count": 4,
+            "highest_severity": "HIGH",
+            "highest_cvss_score": 7.5,
+            "vulnerability_ids": [
+                "GHSA-23c5-xmqv-rm74",
+                "GHSA-3ppc-4f35-3m26",
+                "GHSA-7r86-cg39-jmmj",
+                "GHSA-f8q6-p94x-37v3"
+            ],
+            "fixed_versions": [
+                "10.2.1",
+                "10.2.3",
+                "3.0.5",
+                "3.1.3",
+                "3.1.4",
+                "4.2.4",
+                "4.2.5",
+                "5.1.7",
+                "5.1.8",
+                "6.2.1",
+                "6.2.2",
+                "7.4.7",
+                "7.4.8",
+                "8.0.5",
+                "8.0.6",
+                "9.0.6",
+                "9.0.7"
+            ]
+        },
+        {
+            "package_instance_id": "node_modules/moment",
+            "package_name": "moment",
+            "installed_version": "2.15.1",
+            "package_path": "node_modules/moment",
+            "dependency_type": "production",
+            "is_direct": true,
+            "vulnerability_count": 2,
+            "highest_severity": "HIGH",
+            "highest_cvss_score": 7.5,
+            "vulnerability_ids": [
+                "GHSA-446m-mv8f-q348",
+                "GHSA-8hfj-j24r-96c4"
+            ],
+            "fixed_versions": [
+                "2.19.3",
+                "2.29.2"
+            ]
+        },
+        {
+            "package_instance_id": "node_modules/mpath",
+            "package_name": "mpath",
+            "installed_version": "0.1.1",
+            "package_path": "node_modules/mpath",
+            "dependency_type": "transitive",
+            "is_direct": false,
+            "vulnerability_count": 2,
+            "highest_severity": "HIGH",
+            "highest_cvss_score": 7.5,
+            "vulnerability_ids": [
+                "GHSA-h466-j336-74wx",
+                "GHSA-p92x-r36w-9395"
+            ],
+            "fixed_versions": [
+                "0.5.1",
+                "0.8.4"
+            ]
+        },
+        {
+            "package_instance_id": "node_modules/nodemon/node_modules/semver",
+            "package_name": "semver",
+            "installed_version": "5.7.1",
+            "package_path": "node_modules/nodemon/node_modules/semver",
+            "dependency_type": "transitive",
+            "is_direct": false,
+            "vulnerability_count": 1,
+            "highest_severity": "HIGH",
+            "highest_cvss_score": 7.5,
+            "vulnerability_ids": [
+                "GHSA-c2qf-rxjj-qqgw"
+            ],
+            "fixed_versions": [
+                "5.7.2",
+                "6.3.1",
+                "7.5.2"
+            ]
+        },
+        {
+            "package_instance_id": "node_modules/npmconf/node_modules/semver",
+            "package_name": "semver",
+            "installed_version": "1.1.4",
+            "package_path": "node_modules/npmconf/node_modules/semver",
+            "dependency_type": "transitive",
+            "is_direct": false,
+            "vulnerability_count": 1,
+            "highest_severity": "HIGH",
+            "highest_cvss_score": 7.5,
+            "vulnerability_ids": [
+                "GHSA-x6fg-f45m-jf5q"
+            ],
+            "fixed_versions": [
+                "4.3.2"
+            ]
+        },
+        {
+            "package_instance_id": "node_modules/nyc/node_modules/base/node_modules/kind-of",
+            "package_name": "kind-of",
+            "installed_version": "6.0.2",
+            "package_path": "node_modules/nyc/node_modules/base/node_modules/kind-of",
+            "dependency_type": "transitive",
+            "is_direct": false,
+            "vulnerability_count": 1,
+            "highest_severity": "HIGH",
+            "highest_cvss_score": 7.5,
+            "vulnerability_ids": [
+                "GHSA-6c8f-qphg-qjgp"
+            ],
+            "fixed_versions": [
+                "6.0.3"
+            ]
+        },
+        {
+            "package_instance_id": "node_modules/nyc/node_modules/define-property/node_modules/kind-of",
+            "package_name": "kind-of",
+            "installed_version": "6.0.2",
+            "package_path": "node_modules/nyc/node_modules/define-property/node_modules/kind-of",
+            "dependency_type": "transitive",
+            "is_direct": false,
+            "vulnerability_count": 1,
+            "highest_severity": "HIGH",
+            "highest_cvss_score": 7.5,
+            "vulnerability_ids": [
+                "GHSA-6c8f-qphg-qjgp"
+            ],
+            "fixed_versions": [
+                "6.0.3"
+            ]
+        },
+        {
+            "package_instance_id": "node_modules/nyc/node_modules/extglob/node_modules/kind-of",
+            "package_name": "kind-of",
+            "installed_version": "6.0.2",
+            "package_path": "node_modules/nyc/node_modules/extglob/node_modules/kind-of",
+            "dependency_type": "transitive",
+            "is_direct": false,
+            "vulnerability_count": 1,
+            "highest_severity": "HIGH",
+            "highest_cvss_score": 7.5,
+            "vulnerability_ids": [
+                "GHSA-6c8f-qphg-qjgp"
+            ],
+            "fixed_versions": [
+                "6.0.3"
+            ]
+        },
+        {
+            "package_instance_id": "node_modules/nyc/node_modules/micromatch/node_modules/kind-of",
+            "package_name": "kind-of",
+            "installed_version": "6.0.2",
+            "package_path": "node_modules/nyc/node_modules/micromatch/node_modules/kind-of",
+            "dependency_type": "transitive",
+            "is_direct": false,
+            "vulnerability_count": 1,
+            "highest_severity": "HIGH",
+            "highest_cvss_score": 7.5,
+            "vulnerability_ids": [
+                "GHSA-6c8f-qphg-qjgp"
+            ],
+            "fixed_versions": [
+                "6.0.3"
+            ]
+        },
+        {
+            "package_instance_id": "node_modules/nyc/node_modules/nanomatch/node_modules/kind-of",
+            "package_name": "kind-of",
+            "installed_version": "6.0.2",
+            "package_path": "node_modules/nyc/node_modules/nanomatch/node_modules/kind-of",
+            "dependency_type": "transitive",
+            "is_direct": false,
+            "vulnerability_count": 1,
+            "highest_severity": "HIGH",
+            "highest_cvss_score": 7.5,
+            "vulnerability_ids": [
+                "GHSA-6c8f-qphg-qjgp"
+            ],
+            "fixed_versions": [
+                "6.0.3"
+            ]
+        },
+        {
+            "package_instance_id": "node_modules/nyc/node_modules/snapdragon-node/node_modules/kind-of",
+            "package_name": "kind-of",
+            "installed_version": "6.0.2",
+            "package_path": "node_modules/nyc/node_modules/snapdragon-node/node_modules/kind-of",
+            "dependency_type": "transitive",
+            "is_direct": false,
+            "vulnerability_count": 1,
+            "highest_severity": "HIGH",
+            "highest_cvss_score": 7.5,
+            "vulnerability_ids": [
+                "GHSA-6c8f-qphg-qjgp"
+            ],
+            "fixed_versions": [
+                "6.0.3"
+            ]
+        },
+        {
+            "package_instance_id": "node_modules/nyc/node_modules/test-exclude/node_modules/kind-of",
+            "package_name": "kind-of",
+            "installed_version": "6.0.2",
+            "package_path": "node_modules/nyc/node_modules/test-exclude/node_modules/kind-of",
+            "dependency_type": "transitive",
+            "is_direct": false,
+            "vulnerability_count": 1,
+            "highest_severity": "HIGH",
+            "highest_cvss_score": 7.5,
+            "vulnerability_ids": [
+                "GHSA-6c8f-qphg-qjgp"
+            ],
+            "fixed_versions": [
+                "6.0.3"
+            ]
+        },
+        {
+            "package_instance_id": "node_modules/nyc/node_modules/use/node_modules/kind-of",
+            "package_name": "kind-of",
+            "installed_version": "6.0.2",
+            "package_path": "node_modules/nyc/node_modules/use/node_modules/kind-of",
+            "dependency_type": "transitive",
+            "is_direct": false,
+            "vulnerability_count": 1,
+            "highest_severity": "HIGH",
+            "highest_cvss_score": 7.5,
+            "vulnerability_ids": [
+                "GHSA-6c8f-qphg-qjgp"
+            ],
+            "fixed_versions": [
+                "6.0.3"
+            ]
+        },
+        {
+            "package_instance_id": "node_modules/nyc/node_modules/braces",
+            "package_name": "braces",
+            "installed_version": "2.3.2",
+            "package_path": "node_modules/nyc/node_modules/braces",
+            "dependency_type": "transitive",
+            "is_direct": false,
+            "vulnerability_count": 1,
+            "highest_severity": "HIGH",
+            "highest_cvss_score": 7.5,
+            "vulnerability_ids": [
+                "GHSA-grv7-fg5c-xmjg"
+            ],
+            "fixed_versions": [
+                "3.0.3"
+            ]
+        },
+        {
+            "package_instance_id": "node_modules/nyc/node_modules/test-exclude/node_modules/braces",
+            "package_name": "braces",
+            "installed_version": "2.3.2",
+            "package_path": "node_modules/nyc/node_modules/test-exclude/node_modules/braces",
+            "dependency_type": "transitive",
+            "is_direct": false,
+            "vulnerability_count": 1,
+            "highest_severity": "HIGH",
+            "highest_cvss_score": 7.5,
+            "vulnerability_ids": [
+                "GHSA-grv7-fg5c-xmjg"
+            ],
+            "fixed_versions": [
+                "3.0.3"
+            ]
+        },
+        {
+            "package_instance_id": "node_modules/nyc/node_modules/decode-uri-component",
+            "package_name": "decode-uri-component",
+            "installed_version": "0.2.0",
+            "package_path": "node_modules/nyc/node_modules/decode-uri-component",
+            "dependency_type": "transitive",
+            "is_direct": false,
+            "vulnerability_count": 3,
+            "highest_severity": "HIGH",
+            "highest_cvss_score": 7.5,
+            "vulnerability_ids": [
+                "GHSA-qr28-fpjm-wq7f",
+                "GHSA-vcc3-ghjq-m6fr",
+                "GHSA-w573-4hg7-7wgq"
+            ],
+            "fixed_versions": [
+                "0.2.1",
+                "0.5.0",
+                "0.5.1"
+            ]
+        },
+        {
+            "package_instance_id": "node_modules/nyc/node_modules/execa/node_modules/cross-spawn",
+            "package_name": "cross-spawn",
+            "installed_version": "5.1.0",
+            "package_path": "node_modules/nyc/node_modules/execa/node_modules/cross-spawn",
+            "dependency_type": "transitive",
+            "is_direct": false,
+            "vulnerability_count": 1,
+            "highest_severity": "HIGH",
+            "highest_cvss_score": 7.5,
+            "vulnerability_ids": [
+                "GHSA-3xgq-45jj-v275"
+            ],
+            "fixed_versions": [
+                "6.0.6",
+                "7.0.5"
+            ]
+        },
+        {
+            "package_instance_id": "node_modules/term-size/node_modules/cross-spawn",
+            "package_name": "cross-spawn",
+            "installed_version": "5.1.0",
+            "package_path": "node_modules/term-size/node_modules/cross-spawn",
+            "dependency_type": "transitive",
+            "is_direct": false,
+            "vulnerability_count": 1,
+            "highest_severity": "HIGH",
+            "highest_cvss_score": 7.5,
+            "vulnerability_ids": [
+                "GHSA-3xgq-45jj-v275"
+            ],
+            "fixed_versions": [
+                "6.0.6",
+                "7.0.5"
+            ]
+        },
+        {
+            "package_instance_id": "node_modules/nyc/node_modules/semver",
+            "package_name": "semver",
+            "installed_version": "5.5.0",
+            "package_path": "node_modules/nyc/node_modules/semver",
+            "dependency_type": "transitive",
+            "is_direct": false,
+            "vulnerability_count": 1,
+            "highest_severity": "HIGH",
+            "highest_cvss_score": 7.5,
+            "vulnerability_ids": [
+                "GHSA-c2qf-rxjj-qqgw"
+            ],
+            "fixed_versions": [
+                "5.7.2",
+                "6.3.1",
+                "7.5.2"
+            ]
+        },
+        {
+            "package_instance_id": "node_modules/nyc/node_modules/string-width/node_modules/ansi-regex",
+            "package_name": "ansi-regex",
+            "installed_version": "3.0.0",
+            "package_path": "node_modules/nyc/node_modules/string-width/node_modules/ansi-regex",
+            "dependency_type": "transitive",
+            "is_direct": false,
+            "vulnerability_count": 1,
+            "highest_severity": "HIGH",
+            "highest_cvss_score": 7.5,
+            "vulnerability_ids": [
+                "GHSA-93q8-gq69-wqmw"
+            ],
+            "fixed_versions": [
+                "3.0.1",
+                "4.1.1",
+                "5.0.1",
+                "6.0.1"
+            ]
+        },
+        {
+            "package_instance_id": "node_modules/nyc/node_modules/yargs/node_modules/ansi-regex",
+            "package_name": "ansi-regex",
+            "installed_version": "3.0.0",
+            "package_path": "node_modules/nyc/node_modules/yargs/node_modules/ansi-regex",
+            "dependency_type": "transitive",
+            "is_direct": false,
+            "vulnerability_count": 1,
+            "highest_severity": "HIGH",
+            "highest_cvss_score": 7.5,
+            "vulnerability_ids": [
+                "GHSA-93q8-gq69-wqmw"
+            ],
+            "fixed_versions": [
+                "3.0.1",
+                "4.1.1",
+                "5.0.1",
+                "6.0.1"
+            ]
+        },
+        {
+            "package_instance_id": "node_modules/string-width/node_modules/ansi-regex",
+            "package_name": "ansi-regex",
+            "installed_version": "3.0.0",
+            "package_path": "node_modules/string-width/node_modules/ansi-regex",
+            "dependency_type": "transitive",
+            "is_direct": false,
+            "vulnerability_count": 1,
+            "highest_severity": "HIGH",
+            "highest_cvss_score": 7.5,
+            "vulnerability_ids": [
+                "GHSA-93q8-gq69-wqmw"
+            ],
+            "fixed_versions": [
+                "3.0.1",
+                "4.1.1",
+                "5.0.1",
+                "6.0.1"
+            ]
+        },
+        {
+            "package_instance_id": "node_modules/path-to-regexp",
+            "package_name": "path-to-regexp",
+            "installed_version": "0.1.3",
+            "package_path": "node_modules/path-to-regexp",
+            "dependency_type": "transitive",
+            "is_direct": false,
+            "vulnerability_count": 3,
+            "highest_severity": "HIGH",
+            "highest_cvss_score": 7.5,
+            "vulnerability_ids": [
+                "GHSA-37ch-88jc-xwx2",
+                "GHSA-9wv6-86v2-598j",
+                "GHSA-rhx6-c78j-4q9w"
+            ],
+            "fixed_versions": [
+                "0.1.10",
+                "0.1.12",
+                "0.1.13",
+                "1.9.0",
+                "3.3.0",
+                "6.3.0",
+                "8.0.0"
+            ]
+        },
+        {
+            "package_instance_id": "node_modules/picomatch",
+            "package_name": "picomatch",
+            "installed_version": "2.3.0",
+            "package_path": "node_modules/picomatch",
+            "dependency_type": "transitive",
+            "is_direct": false,
+            "vulnerability_count": 2,
+            "highest_severity": "HIGH",
+            "highest_cvss_score": 7.5,
+            "vulnerability_ids": [
+                "GHSA-3v7f-55p6-f55p",
+                "GHSA-c2c7-rcm5-vvqj"
+            ],
+            "fixed_versions": [
+                "2.3.2",
+                "3.0.2",
+                "4.0.4"
+            ]
+        },
+        {
+            "package_instance_id": "node_modules/qs",
+            "package_name": "qs",
+            "installed_version": "2.2.4",
+            "package_path": "node_modules/qs",
+            "dependency_type": "transitive",
+            "is_direct": false,
+            "vulnerability_count": 3,
+            "highest_severity": "HIGH",
+            "highest_cvss_score": 7.5,
+            "vulnerability_ids": [
+                "GHSA-6rw7-vpxm-498p",
+                "GHSA-gqgv-6jq5-jjj9",
+                "GHSA-hrpp-h998-j3pp"
+            ],
+            "fixed_versions": [
+                "6.0.4",
+                "6.1.2",
+                "6.10.3",
+                "6.14.1",
+                "6.2.3",
+                "6.2.4",
+                "6.3.2",
+                "6.3.3",
+                "6.4.1",
+                "6.5.3",
+                "6.6.1",
+                "6.7.3",
+                "6.8.3",
+                "6.9.7"
+            ]
+        },
+        {
+            "package_instance_id": "node_modules/request/node_modules/qs",
+            "package_name": "qs",
+            "installed_version": "6.5.2",
+            "package_path": "node_modules/request/node_modules/qs",
+            "dependency_type": "transitive",
+            "is_direct": false,
+            "vulnerability_count": 3,
+            "highest_severity": "HIGH",
+            "highest_cvss_score": 7.5,
+            "vulnerability_ids": [
+                "GHSA-4mjr-xmp4-gh2g",
+                "GHSA-6rw7-vpxm-498p",
+                "GHSA-hrpp-h998-j3pp"
+            ],
+            "fixed_versions": [
+                "6.10.3",
+                "6.14.1",
+                "6.16.0",
+                "6.2.4",
+                "6.3.3",
+                "6.4.1",
+                "6.5.3",
+                "6.6.1",
+                "6.7.3",
+                "6.8.3",
+                "6.9.7"
+            ]
+        },
+        {
+            "package_instance_id": "node_modules/semver",
+            "package_name": "semver",
+            "installed_version": "5.7.0",
+            "package_path": "node_modules/semver",
+            "dependency_type": "transitive",
+            "is_direct": false,
+            "vulnerability_count": 1,
+            "highest_severity": "HIGH",
+            "highest_cvss_score": 7.5,
+            "vulnerability_ids": [
+                "GHSA-c2qf-rxjj-qqgw"
+            ],
+            "fixed_versions": [
+                "5.7.2",
+                "6.3.1",
+                "7.5.2"
+            ]
+        },
+        {
+            "package_instance_id": "node_modules/snyk-gradle-plugin",
+            "package_name": "snyk-gradle-plugin",
+            "installed_version": "3.2.2",
+            "package_path": "node_modules/snyk-gradle-plugin",
+            "dependency_type": "transitive",
+            "is_direct": false,
+            "vulnerability_count": 2,
+            "highest_severity": "HIGH",
+            "highest_cvss_score": 7.5,
+            "vulnerability_ids": [
+                "GHSA-4x6g-3cmx-w76r",
+                "GHSA-qqqw-gm93-qf6m"
+            ],
+            "fixed_versions": [
+                "3.24.5",
+                "4.5.0"
+            ]
+        },
+        {
+            "package_instance_id": "node_modules/snyk-php-plugin",
+            "package_name": "snyk-php-plugin",
+            "installed_version": "1.7.0",
+            "package_path": "node_modules/snyk-php-plugin",
+            "dependency_type": "transitive",
+            "is_direct": false,
+            "vulnerability_count": 1,
+            "highest_severity": "HIGH",
+            "highest_cvss_score": 7.5,
+            "vulnerability_ids": [
+                "GHSA-69f9-h8f9-7vjf"
+            ],
+            "fixed_versions": [
+                "1.10.0"
+            ]
+        },
+        {
+            "package_instance_id": "node_modules/st",
+            "package_name": "st",
+            "installed_version": "0.2.4",
+            "package_path": "node_modules/st",
+            "dependency_type": "production",
+            "is_direct": true,
+            "vulnerability_count": 2,
+            "highest_severity": "HIGH",
+            "highest_cvss_score": 7.5,
+            "vulnerability_ids": [
+                "GHSA-69rr-wvh9-6c4q",
+                "GHSA-72fg-jqhx-c68p"
+            ],
+            "fixed_versions": [
+                "0.2.5",
+                "1.2.2"
+            ]
+        },
+        {
+            "package_instance_id": "node_modules/st/node_modules/mime",
+            "package_name": "mime",
+            "installed_version": "1.2.11",
+            "package_path": "node_modules/st/node_modules/mime",
+            "dependency_type": "transitive",
+            "is_direct": false,
+            "vulnerability_count": 1,
+            "highest_severity": "HIGH",
+            "highest_cvss_score": 7.5,
+            "vulnerability_ids": [
+                "GHSA-wrvr-8mpx-r7pp"
+            ],
+            "fixed_versions": [
+                "1.4.1",
+                "2.0.3"
+            ]
+        },
+        {
+            "package_instance_id": "node_modules/uuid",
+            "package_name": "uuid",
+            "installed_version": "3.3.2",
+            "package_path": "node_modules/uuid",
+            "dependency_type": "transitive",
+            "is_direct": false,
+            "vulnerability_count": 1,
+            "highest_severity": "HIGH",
+            "highest_cvss_score": 7.5,
+            "vulnerability_ids": [
+                "GHSA-w5hq-g745-h8pq"
+            ],
+            "fixed_versions": [
+                "11.1.1",
+                "12.0.1",
+                "13.0.1"
+            ]
+        },
+        {
+            "package_instance_id": "node_modules/validator",
+            "package_name": "validator",
+            "installed_version": "13.5.2",
+            "package_path": "node_modules/validator",
+            "dependency_type": "production",
+            "is_direct": true,
+            "vulnerability_count": 4,
+            "highest_severity": "HIGH",
+            "highest_cvss_score": 7.5,
+            "vulnerability_ids": [
+                "GHSA-9965-vmph-33xx",
+                "GHSA-qgmg-gppg-76g5",
+                "GHSA-vghf-hv5q-vc2g",
+                "GHSA-xx4c-jj58-r7x6"
+            ],
+            "fixed_versions": [
+                "13.15.20",
+                "13.15.22",
+                "13.7.0"
+            ]
+        },
+        {
+            "package_instance_id": "node_modules/lodash.set",
+            "package_name": "lodash.set",
+            "installed_version": "4.3.2",
+            "package_path": "node_modules/lodash.set",
+            "dependency_type": "transitive",
+            "is_direct": false,
+            "vulnerability_count": 1,
+            "highest_severity": "HIGH",
+            "highest_cvss_score": 7.4,
+            "vulnerability_ids": [
+                "GHSA-p6mc-m468-83gw"
+            ],
+            "fixed_versions": []
+        },
+        {
+            "package_instance_id": "node_modules/cached-path-relative",
+            "package_name": "cached-path-relative",
+            "installed_version": "1.0.2",
+            "package_path": "node_modules/cached-path-relative",
+            "dependency_type": "transitive",
+            "is_direct": false,
+            "vulnerability_count": 1,
+            "highest_severity": "HIGH",
+            "highest_cvss_score": 7.3,
+            "vulnerability_ids": [
+                "GHSA-wg6g-ppvx-927h"
+            ],
+            "fixed_versions": [
+                "1.1.0"
+            ]
+        },
+        {
+            "package_instance_id": "node_modules/cli-highlight/node_modules/y18n",
+            "package_name": "y18n",
+            "installed_version": "4.0.0",
+            "package_path": "node_modules/cli-highlight/node_modules/y18n",
+            "dependency_type": "transitive",
+            "is_direct": false,
+            "vulnerability_count": 1,
+            "highest_severity": "HIGH",
+            "highest_cvss_score": 7.3,
+            "vulnerability_ids": [
+                "GHSA-c4w7-xm78-47vh"
+            ],
+            "fixed_versions": [
+                "3.2.2",
+                "4.0.1",
+                "5.0.5"
+            ]
+        },
+        {
+            "package_instance_id": "node_modules/typeorm/node_modules/y18n",
+            "package_name": "y18n",
+            "installed_version": "4.0.0",
+            "package_path": "node_modules/typeorm/node_modules/y18n",
+            "dependency_type": "transitive",
+            "is_direct": false,
+            "vulnerability_count": 1,
+            "highest_severity": "HIGH",
+            "highest_cvss_score": 7.3,
+            "vulnerability_ids": [
+                "GHSA-c4w7-xm78-47vh"
+            ],
+            "fixed_versions": [
+                "3.2.2",
+                "4.0.1",
+                "5.0.5"
+            ]
+        },
+        {
+            "package_instance_id": "node_modules/config-chain/node_modules/ini",
+            "package_name": "ini",
+            "installed_version": "1.3.5",
+            "package_path": "node_modules/config-chain/node_modules/ini",
+            "dependency_type": "transitive",
+            "is_direct": false,
+            "vulnerability_count": 1,
+            "highest_severity": "HIGH",
+            "highest_cvss_score": 7.3,
+            "vulnerability_ids": [
+                "GHSA-qqgx-2p2h-9c37"
+            ],
+            "fixed_versions": [
+                "1.3.6"
+            ]
+        },
+        {
+            "package_instance_id": "node_modules/global-dirs/node_modules/ini",
+            "package_name": "ini",
+            "installed_version": "1.3.5",
+            "package_path": "node_modules/global-dirs/node_modules/ini",
+            "dependency_type": "transitive",
+            "is_direct": false,
+            "vulnerability_count": 1,
+            "highest_severity": "HIGH",
+            "highest_cvss_score": 7.3,
+            "vulnerability_ids": [
+                "GHSA-qqgx-2p2h-9c37"
+            ],
+            "fixed_versions": [
+                "1.3.6"
+            ]
+        },
+        {
+            "package_instance_id": "node_modules/nconf/node_modules/ini",
+            "package_name": "ini",
+            "installed_version": "1.3.5",
+            "package_path": "node_modules/nconf/node_modules/ini",
+            "dependency_type": "transitive",
+            "is_direct": false,
+            "vulnerability_count": 1,
+            "highest_severity": "HIGH",
+            "highest_cvss_score": 7.3,
+            "vulnerability_ids": [
+                "GHSA-qqgx-2p2h-9c37"
+            ],
+            "fixed_versions": [
+                "1.3.6"
+            ]
+        },
+        {
+            "package_instance_id": "node_modules/rc/node_modules/ini",
+            "package_name": "ini",
+            "installed_version": "1.3.5",
+            "package_path": "node_modules/rc/node_modules/ini",
+            "dependency_type": "transitive",
+            "is_direct": false,
+            "vulnerability_count": 1,
+            "highest_severity": "HIGH",
+            "highest_cvss_score": 7.3,
+            "vulnerability_ids": [
+                "GHSA-qqgx-2p2h-9c37"
+            ],
+            "fixed_versions": [
+                "1.3.6"
+            ]
+        },
+        {
+            "package_instance_id": "node_modules/dot-prop",
+            "package_name": "dot-prop",
+            "installed_version": "4.2.0",
+            "package_path": "node_modules/dot-prop",
+            "dependency_type": "transitive",
+            "is_direct": false,
+            "vulnerability_count": 1,
+            "highest_severity": "HIGH",
+            "highest_cvss_score": 7.3,
+            "vulnerability_ids": [
+                "GHSA-ff7x-qrg7-qggm"
+            ],
+            "fixed_versions": [
+                "4.2.1",
+                "5.1.1"
+            ]
+        },
+        {
+            "package_instance_id": "node_modules/ini",
+            "package_name": "ini",
+            "installed_version": "1.1.0",
+            "package_path": "node_modules/ini",
+            "dependency_type": "transitive",
+            "is_direct": false,
+            "vulnerability_count": 1,
+            "highest_severity": "HIGH",
+            "highest_cvss_score": 7.3,
+            "vulnerability_ids": [
+                "GHSA-qqgx-2p2h-9c37"
+            ],
+            "fixed_versions": [
+                "1.3.6"
+            ]
+        },
+        {
+            "package_instance_id": "node_modules/jszip",
+            "package_name": "jszip",
+            "installed_version": "3.2.2",
+            "package_path": "node_modules/jszip",
+            "dependency_type": "transitive",
+            "is_direct": false,
+            "vulnerability_count": 2,
+            "highest_severity": "HIGH",
+            "highest_cvss_score": 7.3,
+            "vulnerability_ids": [
+                "GHSA-36fh-84j7-cv5h",
+                "GHSA-jg8v-48h5-wgxg"
+            ],
+            "fixed_versions": [
+                "2.7.0",
+                "3.7.0",
+                "3.8.0"
+            ]
+        },
+        {
+            "package_instance_id": "node_modules/nconf",
+            "package_name": "nconf",
+            "installed_version": "0.10.0",
+            "package_path": "node_modules/nconf",
+            "dependency_type": "transitive",
+            "is_direct": false,
+            "vulnerability_count": 1,
+            "highest_severity": "HIGH",
+            "highest_cvss_score": 7.3,
+            "vulnerability_ids": [
+                "GHSA-6xwr-q98w-rvg7"
+            ],
+            "fixed_versions": [
+                "0.11.4"
+            ]
+        },
+        {
+            "package_instance_id": "node_modules/nyc/node_modules/y18n",
+            "package_name": "y18n",
+            "installed_version": "3.2.1",
+            "package_path": "node_modules/nyc/node_modules/y18n",
+            "dependency_type": "transitive",
+            "is_direct": false,
+            "vulnerability_count": 1,
+            "highest_severity": "HIGH",
+            "highest_cvss_score": 7.3,
+            "vulnerability_ids": [
+                "GHSA-c4w7-xm78-47vh"
+            ],
+            "fixed_versions": [
+                "3.2.2",
+                "4.0.1",
+                "5.0.5"
+            ]
+        },
+        {
+            "package_instance_id": "node_modules/y18n",
+            "package_name": "y18n",
+            "installed_version": "3.2.1",
+            "package_path": "node_modules/y18n",
+            "dependency_type": "transitive",
+            "is_direct": false,
+            "vulnerability_count": 1,
+            "highest_severity": "HIGH",
+            "highest_cvss_score": 7.3,
+            "vulnerability_ids": [
+                "GHSA-c4w7-xm78-47vh"
+            ],
+            "fixed_versions": [
+                "3.2.2",
+                "4.0.1",
+                "5.0.5"
+            ]
+        },
+        {
+            "package_instance_id": "node_modules/parse-path",
+            "package_name": "parse-path",
+            "installed_version": "4.0.1",
+            "package_path": "node_modules/parse-path",
+            "dependency_type": "transitive",
+            "is_direct": false,
+            "vulnerability_count": 1,
+            "highest_severity": "HIGH",
+            "highest_cvss_score": 7.3,
+            "vulnerability_ids": [
+                "GHSA-3j8f-xvm3-ffx4"
+            ],
+            "fixed_versions": [
+                "5.0.0"
+            ]
+        },
+        {
+            "package_instance_id": "node_modules/snyk-mvn-plugin/node_modules/tmp",
+            "package_name": "tmp",
+            "installed_version": "0.1.0",
+            "package_path": "node_modules/snyk-mvn-plugin/node_modules/tmp",
+            "dependency_type": "transitive",
+            "is_direct": false,
+            "vulnerability_count": 2,
+            "highest_severity": "HIGH",
+            "highest_cvss_score": 2.5,
+            "vulnerability_ids": [
+                "GHSA-52f5-9888-hmc6",
+                "GHSA-ph9p-34f9-6g65"
+            ],
+            "fixed_versions": [
+                "0.2.4",
+                "0.2.6"
+            ]
+        },
+        {
+            "package_instance_id": "node_modules/snyk-sbt-plugin/node_modules/tmp",
+            "package_name": "tmp",
+            "installed_version": "0.1.0",
+            "package_path": "node_modules/snyk-sbt-plugin/node_modules/tmp",
+            "dependency_type": "transitive",
+            "is_direct": false,
+            "vulnerability_count": 2,
+            "highest_severity": "HIGH",
+            "highest_cvss_score": 2.5,
+            "vulnerability_ids": [
+                "GHSA-52f5-9888-hmc6",
+                "GHSA-ph9p-34f9-6g65"
+            ],
+            "fixed_versions": [
+                "0.2.4",
+                "0.2.6"
+            ]
+        },
+        {
+            "package_instance_id": "node_modules/tmp",
+            "package_name": "tmp",
+            "installed_version": "0.0.33",
+            "package_path": "node_modules/tmp",
+            "dependency_type": "transitive",
+            "is_direct": false,
+            "vulnerability_count": 2,
+            "highest_severity": "HIGH",
+            "highest_cvss_score": 2.5,
+            "vulnerability_ids": [
+                "GHSA-52f5-9888-hmc6",
+                "GHSA-ph9p-34f9-6g65"
+            ],
+            "fixed_versions": [
+                "0.2.4",
+                "0.2.6"
+            ]
+        },
+        {
+            "package_instance_id": "node_modules/diff",
+            "package_name": "diff",
+            "installed_version": "1.4.0",
+            "package_path": "node_modules/diff",
+            "dependency_type": "transitive",
+            "is_direct": false,
+            "vulnerability_count": 2,
+            "highest_severity": "HIGH",
+            "highest_cvss_score": null,
+            "vulnerability_ids": [
+                "GHSA-73rr-hh4g-fpgx",
+                "GHSA-h6ch-v84p-w6p9"
+            ],
+            "fixed_versions": [
+                "3.5.0",
+                "3.5.1",
+                "4.0.4",
+                "5.2.2",
+                "8.0.3"
+            ]
+        },
+        {
+            "package_instance_id": "node_modules/express/node_modules/negotiator",
+            "package_name": "negotiator",
+            "installed_version": "0.5.3",
+            "package_path": "node_modules/express/node_modules/negotiator",
+            "dependency_type": "transitive",
+            "is_direct": false,
+            "vulnerability_count": 1,
+            "highest_severity": "HIGH",
+            "highest_cvss_score": null,
+            "vulnerability_ids": [
+                "GHSA-7mc5-chhp-fmc3"
+            ],
+            "fixed_versions": [
+                "0.6.1"
+            ]
+        },
+        {
+            "package_instance_id": "node_modules/figlet",
+            "package_name": "figlet",
+            "installed_version": "1.5.0",
+            "package_path": "node_modules/figlet",
+            "dependency_type": "transitive",
+            "is_direct": false,
+            "vulnerability_count": 1,
+            "highest_severity": "HIGH",
+            "highest_cvss_score": null,
+            "vulnerability_ids": [
+                "GHSA-62ch-8vmq-8xm7"
+            ],
+            "fixed_versions": [
+                "1.11.3"
+            ]
+        },
+        {
+            "package_instance_id": "node_modules/mongoose/node_modules/mongodb",
+            "package_name": "mongodb",
+            "installed_version": "2.0.46",
+            "package_path": "node_modules/mongoose/node_modules/mongodb",
+            "dependency_type": "transitive",
+            "is_direct": false,
+            "vulnerability_count": 1,
+            "highest_severity": "HIGH",
+            "highest_cvss_score": null,
+            "vulnerability_ids": [
+                "GHSA-mh5c-679w-hh4r"
+            ],
+            "fixed_versions": [
+                "3.1.13"
+            ]
+        },
+        {
+            "package_instance_id": "node_modules/negotiator",
+            "package_name": "negotiator",
+            "installed_version": "0.4.9",
+            "package_path": "node_modules/negotiator",
+            "dependency_type": "transitive",
+            "is_direct": false,
+            "vulnerability_count": 1,
+            "highest_severity": "HIGH",
+            "highest_cvss_score": null,
+            "vulnerability_ids": [
+                "GHSA-7mc5-chhp-fmc3"
+            ],
+            "fixed_versions": [
+                "0.6.1"
+            ]
+        },
+        {
+            "package_instance_id": "node_modules/st/node_modules/negotiator",
+            "package_name": "negotiator",
+            "installed_version": "0.2.8",
+            "package_path": "node_modules/st/node_modules/negotiator",
+            "dependency_type": "transitive",
+            "is_direct": false,
+            "vulnerability_count": 1,
+            "highest_severity": "HIGH",
+            "highest_cvss_score": null,
+            "vulnerability_ids": [
+                "GHSA-7mc5-chhp-fmc3"
+            ],
+            "fixed_versions": [
+                "0.6.1"
+            ]
+        },
+        {
+            "package_instance_id": "node_modules/jquery",
+            "package_name": "jquery",
+            "installed_version": "2.2.4",
+            "package_path": "node_modules/jquery",
+            "dependency_type": "production",
+            "is_direct": true,
+            "vulnerability_count": 4,
+            "highest_severity": "MEDIUM",
+            "highest_cvss_score": 6.9,
+            "vulnerability_ids": [
+                "GHSA-6c3j-c64m-qhgq",
+                "GHSA-gxr4-xjj5-5px2",
+                "GHSA-jpcq-cgw6-v4j6",
+                "GHSA-rmxg-73gg-4p98"
+            ],
+            "fixed_versions": [
+                "1.12.2",
+                "3.0.0",
+                "3.4.0",
+                "3.5.0"
+            ]
+        },
+        {
+            "package_instance_id": "node_modules/bl",
+            "package_name": "bl",
+            "installed_version": "3.0.0",
+            "package_path": "node_modules/bl",
+            "dependency_type": "transitive",
+            "is_direct": false,
+            "vulnerability_count": 1,
+            "highest_severity": "MEDIUM",
+            "highest_cvss_score": 6.5,
+            "vulnerability_ids": [
+                "GHSA-pp7h-53gx-mx7r"
+            ],
+            "fixed_versions": [
+                "1.2.3",
+                "2.2.1",
+                "3.0.1",
+                "4.0.3"
+            ]
+        },
+        {
+            "package_instance_id": "node_modules/mongodb/node_modules/bl",
+            "package_name": "bl",
+            "installed_version": "2.2.0",
+            "package_path": "node_modules/mongodb/node_modules/bl",
+            "dependency_type": "transitive",
+            "is_direct": false,
+            "vulnerability_count": 1,
+            "highest_severity": "MEDIUM",
+            "highest_cvss_score": 6.5,
+            "vulnerability_ids": [
+                "GHSA-pp7h-53gx-mx7r"
+            ],
+            "fixed_versions": [
+                "1.2.3",
+                "2.2.1",
+                "3.0.1",
+                "4.0.3"
+            ]
+        },
+        {
+            "package_instance_id": "node_modules/tough-cookie",
+            "package_name": "tough-cookie",
+            "installed_version": "2.4.3",
+            "package_path": "node_modules/tough-cookie",
+            "dependency_type": "transitive",
+            "is_direct": false,
+            "vulnerability_count": 1,
+            "highest_severity": "MEDIUM",
+            "highest_cvss_score": 6.5,
+            "vulnerability_ids": [
+                "GHSA-72xf-g2v4-qvf3"
+            ],
+            "fixed_versions": [
+                "4.1.3"
+            ]
+        },
+        {
+            "package_instance_id": "node_modules/@snyk/snyk-cocoapods-plugin",
+            "package_name": "@snyk/snyk-cocoapods-plugin",
+            "installed_version": "2.0.1",
+            "package_path": "node_modules/@snyk/snyk-cocoapods-plugin",
+            "dependency_type": "transitive",
+            "is_direct": false,
+            "vulnerability_count": 1,
+            "highest_severity": "MEDIUM",
+            "highest_cvss_score": 6.3,
+            "vulnerability_ids": [
+                "GHSA-4x6g-3cmx-w76r"
+            ],
+            "fixed_versions": [
+                "2.5.3"
+            ]
+        },
+        {
+            "package_instance_id": "node_modules/snyk-docker-plugin",
+            "package_name": "snyk-docker-plugin",
+            "installed_version": "1.33.1",
+            "package_path": "node_modules/snyk-docker-plugin",
+            "dependency_type": "transitive",
+            "is_direct": false,
+            "vulnerability_count": 1,
+            "highest_severity": "MEDIUM",
+            "highest_cvss_score": 6.3,
+            "vulnerability_ids": [
+                "GHSA-4x6g-3cmx-w76r"
+            ],
+            "fixed_versions": [
+                "5.6.5"
+            ]
+        },
+        {
+            "package_instance_id": "node_modules/snyk-mvn-plugin",
+            "package_name": "snyk-mvn-plugin",
+            "installed_version": "2.7.0",
+            "package_path": "node_modules/snyk-mvn-plugin",
+            "dependency_type": "transitive",
+            "is_direct": false,
+            "vulnerability_count": 1,
+            "highest_severity": "MEDIUM",
+            "highest_cvss_score": 6.3,
+            "vulnerability_ids": [
+                "GHSA-4x6g-3cmx-w76r"
+            ],
+            "fixed_versions": [
+                "2.31.3"
+            ]
+        },
+        {
+            "package_instance_id": "node_modules/snyk-python-plugin",
+            "package_name": "snyk-python-plugin",
+            "installed_version": "1.16.0",
+            "package_path": "node_modules/snyk-python-plugin",
+            "dependency_type": "transitive",
+            "is_direct": false,
+            "vulnerability_count": 1,
+            "highest_severity": "MEDIUM",
+            "highest_cvss_score": 6.3,
+            "vulnerability_ids": [
+                "GHSA-4x6g-3cmx-w76r"
+            ],
+            "fixed_versions": [
+                "1.24.2"
+            ]
+        },
+        {
+            "package_instance_id": "node_modules/snyk-sbt-plugin",
+            "package_name": "snyk-sbt-plugin",
+            "installed_version": "2.11.0",
+            "package_path": "node_modules/snyk-sbt-plugin",
+            "dependency_type": "transitive",
+            "is_direct": false,
+            "vulnerability_count": 1,
+            "highest_severity": "MEDIUM",
+            "highest_cvss_score": 6.3,
+            "vulnerability_ids": [
+                "GHSA-4x6g-3cmx-w76r"
+            ],
+            "fixed_versions": [
+                "2.16.2"
+            ]
+        },
+        {
+            "package_instance_id": "node_modules/express",
+            "package_name": "express",
+            "installed_version": "4.12.4",
+            "package_path": "node_modules/express",
+            "dependency_type": "production",
+            "is_direct": true,
+            "vulnerability_count": 2,
+            "highest_severity": "MEDIUM",
+            "highest_cvss_score": 6.1,
+            "vulnerability_ids": [
+                "GHSA-qw6h-vgh9-j6wx",
+                "GHSA-rv95-896h-c2vc"
+            ],
+            "fixed_versions": [
+                "4.19.2",
+                "4.20.0",
+                "5.0.0",
+                "5.0.0-beta.3"
+            ]
+        },
+        {
+            "package_instance_id": "node_modules/request",
+            "package_name": "request",
+            "installed_version": "2.88.0",
+            "package_path": "node_modules/request",
+            "dependency_type": "transitive",
+            "is_direct": false,
+            "vulnerability_count": 1,
+            "highest_severity": "MEDIUM",
+            "highest_cvss_score": 6.1,
+            "vulnerability_ids": [
+                "GHSA-p8p7-x288-28g6"
+            ],
+            "fixed_versions": []
+        },
+        {
+            "package_instance_id": "node_modules/highlight.js",
+            "package_name": "highlight.js",
+            "installed_version": "9.18.1",
+            "package_path": "node_modules/highlight.js",
+            "dependency_type": "transitive",
+            "is_direct": false,
+            "vulnerability_count": 2,
+            "highest_severity": "MEDIUM",
+            "highest_cvss_score": 5.8,
+            "vulnerability_ids": [
+                "GHSA-7wwv-vh3v-89cq",
+                "GHSA-vfrc-7r7c-w9mx"
+            ],
+            "fixed_versions": [
+                "10.1.2",
+                "10.4.1",
+                "9.18.2"
+            ]
+        },
+        {
+            "package_instance_id": "node_modules/ajv",
+            "package_name": "ajv",
+            "installed_version": "6.10.2",
+            "package_path": "node_modules/ajv",
+            "dependency_type": "transitive",
+            "is_direct": false,
+            "vulnerability_count": 2,
+            "highest_severity": "MEDIUM",
+            "highest_cvss_score": 5.6,
+            "vulnerability_ids": [
+                "GHSA-2g4f-4pwh-qvx6",
+                "GHSA-v88g-cgmw-v5xw"
+            ],
+            "fixed_versions": [
+                "6.12.3",
+                "6.14.0",
+                "8.18.0"
+            ]
+        },
+        {
+            "package_instance_id": "node_modules/bn.js",
+            "package_name": "bn.js",
+            "installed_version": "4.11.8",
+            "package_path": "node_modules/bn.js",
+            "dependency_type": "transitive",
+            "is_direct": false,
+            "vulnerability_count": 1,
+            "highest_severity": "MEDIUM",
+            "highest_cvss_score": 5.3,
+            "vulnerability_ids": [
+                "GHSA-378v-28hj-76wf"
+            ],
+            "fixed_versions": [
+                "4.12.3",
+                "5.2.3"
+            ]
+        },
+        {
+            "package_instance_id": "node_modules/dotnet-deps-parser/node_modules/xml2js",
+            "package_name": "xml2js",
+            "installed_version": "0.4.19",
+            "package_path": "node_modules/dotnet-deps-parser/node_modules/xml2js",
+            "dependency_type": "transitive",
+            "is_direct": false,
+            "vulnerability_count": 1,
+            "highest_severity": "MEDIUM",
+            "highest_cvss_score": 5.3,
+            "vulnerability_ids": [
+                "GHSA-776f-qx25-q3cc"
+            ],
+            "fixed_versions": [
+                "0.5.0"
+            ]
+        },
+        {
+            "package_instance_id": "node_modules/express/node_modules/ms",
+            "package_name": "ms",
+            "installed_version": "0.7.1",
+            "package_path": "node_modules/express/node_modules/ms",
+            "dependency_type": "transitive",
+            "is_direct": false,
+            "vulnerability_count": 1,
+            "highest_severity": "MEDIUM",
+            "highest_cvss_score": 5.3,
+            "vulnerability_ids": [
+                "GHSA-w9mr-4mfr-499f"
+            ],
+            "fixed_versions": [
+                "2.0.0"
+            ]
+        },
+        {
+            "package_instance_id": "node_modules/finalhandler/node_modules/ms",
+            "package_name": "ms",
+            "installed_version": "0.7.1",
+            "package_path": "node_modules/finalhandler/node_modules/ms",
+            "dependency_type": "transitive",
+            "is_direct": false,
+            "vulnerability_count": 1,
+            "highest_severity": "MEDIUM",
+            "highest_cvss_score": 5.3,
+            "vulnerability_ids": [
+                "GHSA-w9mr-4mfr-499f"
+            ],
+            "fixed_versions": [
+                "2.0.0"
+            ]
+        },
+        {
+            "package_instance_id": "node_modules/mongoose/node_modules/ms",
+            "package_name": "ms",
+            "installed_version": "0.7.1",
+            "package_path": "node_modules/mongoose/node_modules/ms",
+            "dependency_type": "transitive",
+            "is_direct": false,
+            "vulnerability_count": 1,
+            "highest_severity": "MEDIUM",
+            "highest_cvss_score": 5.3,
+            "vulnerability_ids": [
+                "GHSA-w9mr-4mfr-499f"
+            ],
+            "fixed_versions": [
+                "2.0.0"
+            ]
+        },
+        {
+            "package_instance_id": "node_modules/mquery/node_modules/ms",
+            "package_name": "ms",
+            "installed_version": "0.7.1",
+            "package_path": "node_modules/mquery/node_modules/ms",
+            "dependency_type": "transitive",
+            "is_direct": false,
+            "vulnerability_count": 1,
+            "highest_severity": "MEDIUM",
+            "highest_cvss_score": 5.3,
+            "vulnerability_ids": [
+                "GHSA-w9mr-4mfr-499f"
+            ],
+            "fixed_versions": [
+                "2.0.0"
+            ]
+        },
+        {
+            "package_instance_id": "node_modules/send/node_modules/ms",
+            "package_name": "ms",
+            "installed_version": "0.7.1",
+            "package_path": "node_modules/send/node_modules/ms",
+            "dependency_type": "transitive",
+            "is_direct": false,
+            "vulnerability_count": 1,
+            "highest_severity": "MEDIUM",
+            "highest_cvss_score": 5.3,
+            "vulnerability_ids": [
+                "GHSA-w9mr-4mfr-499f"
+            ],
+            "fixed_versions": [
+                "2.0.0"
+            ]
+        },
+        {
+            "package_instance_id": "node_modules/got",
+            "package_name": "got",
+            "installed_version": "6.7.1",
+            "package_path": "node_modules/got",
+            "dependency_type": "transitive",
+            "is_direct": false,
+            "vulnerability_count": 1,
+            "highest_severity": "MEDIUM",
+            "highest_cvss_score": 5.3,
+            "vulnerability_ids": [
+                "GHSA-pfrx-2q88-qq97"
+            ],
+            "fixed_versions": [
+                "11.8.5",
+                "12.1.0"
+            ]
+        },
+        {
+            "package_instance_id": "node_modules/hosted-git-info",
+            "package_name": "hosted-git-info",
+            "installed_version": "2.8.5",
+            "package_path": "node_modules/hosted-git-info",
+            "dependency_type": "transitive",
+            "is_direct": false,
+            "vulnerability_count": 1,
+            "highest_severity": "MEDIUM",
+            "highest_cvss_score": 5.3,
+            "vulnerability_ids": [
+                "GHSA-43f8-2h32-f4cj"
+            ],
+            "fixed_versions": [
+                "2.8.9",
+                "3.0.8"
+            ]
+        },
+        {
+            "package_instance_id": "node_modules/morgan",
+            "package_name": "morgan",
+            "installed_version": "1.10.0",
+            "package_path": "node_modules/morgan",
+            "dependency_type": "production",
+            "is_direct": true,
+            "vulnerability_count": 3,
+            "highest_severity": "MEDIUM",
+            "highest_cvss_score": 5.3,
+            "vulnerability_ids": [
+                "GHSA-4vj7-5mj6-jm8m",
+                "GHSA-9f6g-j8ch-79g4",
+                "GHSA-jxfw-x594-9x9m"
+            ],
+            "fixed_versions": [
+                "1.11.0",
+                "1.12.0",
+                "1.12.1"
+            ]
+        },
+        {
+            "package_instance_id": "node_modules/mquery",
+            "package_name": "mquery",
+            "installed_version": "1.6.3",
+            "package_path": "node_modules/mquery",
+            "dependency_type": "transitive",
+            "is_direct": false,
+            "vulnerability_count": 1,
+            "highest_severity": "MEDIUM",
+            "highest_cvss_score": 5.3,
+            "vulnerability_ids": [
+                "GHSA-45q2-34rf-mr94"
+            ],
+            "fixed_versions": [
+                "3.2.3"
+            ]
+        },
+        {
+            "package_instance_id": "node_modules/ms",
+            "package_name": "ms",
+            "installed_version": "0.7.3",
+            "package_path": "node_modules/ms",
+            "dependency_type": "production",
+            "is_direct": true,
+            "vulnerability_count": 1,
+            "highest_severity": "MEDIUM",
+            "highest_cvss_score": 5.3,
+            "vulnerability_ids": [
+                "GHSA-w9mr-4mfr-499f"
+            ],
+            "fixed_versions": [
+                "2.0.0"
+            ]
+        },
+        {
+            "package_instance_id": "node_modules/nodemon/node_modules/got",
+            "package_name": "got",
+            "installed_version": "9.6.0",
+            "package_path": "node_modules/nodemon/node_modules/got",
+            "dependency_type": "transitive",
+            "is_direct": false,
+            "vulnerability_count": 1,
+            "highest_severity": "MEDIUM",
+            "highest_cvss_score": 5.3,
+            "vulnerability_ids": [
+                "GHSA-pfrx-2q88-qq97"
+            ],
+            "fixed_versions": [
+                "11.8.5",
+                "12.1.0"
+            ]
+        },
+        {
+            "package_instance_id": "node_modules/nyc/node_modules/hosted-git-info",
+            "package_name": "hosted-git-info",
+            "installed_version": "2.6.0",
+            "package_path": "node_modules/nyc/node_modules/hosted-git-info",
+            "dependency_type": "transitive",
+            "is_direct": false,
+            "vulnerability_count": 1,
+            "highest_severity": "MEDIUM",
+            "highest_cvss_score": 5.3,
+            "vulnerability_ids": [
+                "GHSA-43f8-2h32-f4cj"
+            ],
+            "fixed_versions": [
+                "2.8.9",
+                "3.0.8"
+            ]
+        },
+        {
+            "package_instance_id": "node_modules/nyc/node_modules/micromatch",
+            "package_name": "micromatch",
+            "installed_version": "3.1.10",
+            "package_path": "node_modules/nyc/node_modules/micromatch",
+            "dependency_type": "transitive",
+            "is_direct": false,
+            "vulnerability_count": 1,
+            "highest_severity": "MEDIUM",
+            "highest_cvss_score": 5.3,
+            "vulnerability_ids": [
+                "GHSA-952p-6rrq-rcjv"
+            ],
+            "fixed_versions": [
+                "4.0.8"
+            ]
+        },
+        {
+            "package_instance_id": "node_modules/nyc/node_modules/test-exclude/node_modules/micromatch",
+            "package_name": "micromatch",
+            "installed_version": "3.1.10",
+            "package_path": "node_modules/nyc/node_modules/test-exclude/node_modules/micromatch",
+            "dependency_type": "transitive",
+            "is_direct": false,
+            "vulnerability_count": 1,
+            "highest_severity": "MEDIUM",
+            "highest_cvss_score": 5.3,
+            "vulnerability_ids": [
+                "GHSA-952p-6rrq-rcjv"
+            ],
+            "fixed_versions": [
+                "4.0.8"
+            ]
+        },
+        {
+            "package_instance_id": "node_modules/nyc/node_modules/path-parse",
+            "package_name": "path-parse",
+            "installed_version": "1.0.5",
+            "package_path": "node_modules/nyc/node_modules/path-parse",
+            "dependency_type": "transitive",
+            "is_direct": false,
+            "vulnerability_count": 1,
+            "highest_severity": "MEDIUM",
+            "highest_cvss_score": 5.3,
+            "vulnerability_ids": [
+                "GHSA-hj48-42vr-x3v9"
+            ],
+            "fixed_versions": [
+                "1.0.7"
+            ]
+        },
+        {
+            "package_instance_id": "node_modules/nyc/node_modules/yargs-parser",
+            "package_name": "yargs-parser",
+            "installed_version": "8.1.0",
+            "package_path": "node_modules/nyc/node_modules/yargs-parser",
+            "dependency_type": "transitive",
+            "is_direct": false,
+            "vulnerability_count": 1,
+            "highest_severity": "MEDIUM",
+            "highest_cvss_score": 5.3,
+            "vulnerability_ids": [
+                "GHSA-p9pc-299p-vxgp"
+            ],
+            "fixed_versions": [
+                "13.1.2",
+                "15.0.1",
+                "18.1.1",
+                "5.0.1"
+            ]
+        },
+        {
+            "package_instance_id": "node_modules/nyc/node_modules/yargs/node_modules/yargs-parser",
+            "package_name": "yargs-parser",
+            "installed_version": "9.0.2",
+            "package_path": "node_modules/nyc/node_modules/yargs/node_modules/yargs-parser",
+            "dependency_type": "transitive",
+            "is_direct": false,
+            "vulnerability_count": 1,
+            "highest_severity": "MEDIUM",
+            "highest_cvss_score": 5.3,
+            "vulnerability_ids": [
+                "GHSA-p9pc-299p-vxgp"
+            ],
+            "fixed_versions": [
+                "13.1.2",
+                "15.0.1",
+                "18.1.1",
+                "5.0.1"
+            ]
+        },
+        {
+            "package_instance_id": "node_modules/path-parse",
+            "package_name": "path-parse",
+            "installed_version": "1.0.6",
+            "package_path": "node_modules/path-parse",
+            "dependency_type": "transitive",
+            "is_direct": false,
+            "vulnerability_count": 1,
+            "highest_severity": "MEDIUM",
+            "highest_cvss_score": 5.3,
+            "vulnerability_ids": [
+                "GHSA-hj48-42vr-x3v9"
+            ],
+            "fixed_versions": [
+                "1.0.7"
+            ]
+        },
+        {
+            "package_instance_id": "node_modules/word-wrap",
+            "package_name": "word-wrap",
+            "installed_version": "1.2.3",
+            "package_path": "node_modules/word-wrap",
+            "dependency_type": "transitive",
+            "is_direct": false,
+            "vulnerability_count": 1,
+            "highest_severity": "MEDIUM",
+            "highest_cvss_score": 5.3,
+            "vulnerability_ids": [
+                "GHSA-j8xg-fqg3-53r7"
+            ],
+            "fixed_versions": [
+                "1.2.4"
+            ]
+        },
+        {
+            "package_instance_id": "node_modules/xml2js",
+            "package_name": "xml2js",
+            "installed_version": "0.4.23",
+            "package_path": "node_modules/xml2js",
+            "dependency_type": "transitive",
+            "is_direct": false,
+            "vulnerability_count": 1,
+            "highest_severity": "MEDIUM",
+            "highest_cvss_score": 5.3,
+            "vulnerability_ids": [
+                "GHSA-776f-qx25-q3cc"
+            ],
+            "fixed_versions": [
+                "0.5.0"
+            ]
+        },
+        {
+            "package_instance_id": "node_modules/nyc/node_modules/mem",
+            "package_name": "mem",
+            "installed_version": "1.1.0",
+            "package_path": "node_modules/nyc/node_modules/mem",
+            "dependency_type": "transitive",
+            "is_direct": false,
+            "vulnerability_count": 1,
+            "highest_severity": "MEDIUM",
+            "highest_cvss_score": 5.1,
+            "vulnerability_ids": [
+                "GHSA-4xcv-9jjx-gfj3"
+            ],
+            "fixed_versions": [
+                "4.0.0"
+            ]
+        },
+        {
+            "package_instance_id": "node_modules/send",
+            "package_name": "send",
+            "installed_version": "0.12.3",
+            "package_path": "node_modules/send",
+            "dependency_type": "transitive",
+            "is_direct": false,
+            "vulnerability_count": 1,
+            "highest_severity": "MEDIUM",
+            "highest_cvss_score": 5.0,
+            "vulnerability_ids": [
+                "GHSA-m6fv-jmcg-4jfg"
+            ],
+            "fixed_versions": [
+                "0.19.0"
+            ]
+        },
+        {
+            "package_instance_id": "node_modules/serve-static",
+            "package_name": "serve-static",
+            "installed_version": "1.9.3",
+            "package_path": "node_modules/serve-static",
+            "dependency_type": "transitive",
+            "is_direct": false,
+            "vulnerability_count": 1,
+            "highest_severity": "MEDIUM",
+            "highest_cvss_score": 5.0,
+            "vulnerability_ids": [
+                "GHSA-cm22-4g7w-348p"
+            ],
+            "fixed_versions": [
+                "1.16.0",
+                "2.1.0"
+            ]
+        },
+        {
+            "package_instance_id": "node_modules/hbs",
+            "package_name": "hbs",
+            "installed_version": "4.0.4",
+            "package_path": "node_modules/hbs",
+            "dependency_type": "production",
+            "is_direct": true,
+            "vulnerability_count": 1,
+            "highest_severity": "MEDIUM",
+            "highest_cvss_score": 4.0,
+            "vulnerability_ids": [
+                "GHSA-7f5c-rpf4-86p8"
+            ],
+            "fixed_versions": []
+        },
+        {
+            "package_instance_id": "node_modules/npmconf",
+            "package_name": "npmconf",
+            "installed_version": "0.0.24",
+            "package_path": "node_modules/npmconf",
+            "dependency_type": "production",
+            "is_direct": true,
+            "vulnerability_count": 1,
+            "highest_severity": "MEDIUM",
+            "highest_cvss_score": null,
+            "vulnerability_ids": [
+                "GHSA-57cf-349j-352g"
+            ],
+            "fixed_versions": [
+                "2.1.3"
+            ]
+        },
+        {
+            "package_instance_id": "node_modules/debug",
+            "package_name": "debug",
+            "installed_version": "4.1.1",
+            "package_path": "node_modules/debug",
+            "dependency_type": "transitive",
+            "is_direct": false,
+            "vulnerability_count": 1,
+            "highest_severity": "LOW",
+            "highest_cvss_score": 3.7,
+            "vulnerability_ids": [
+                "GHSA-gxpj-cx7g-858c"
+            ],
+            "fixed_versions": [
+                "2.6.9",
+                "3.1.0",
+                "3.2.7",
+                "4.3.1"
+            ]
+        },
+        {
+            "package_instance_id": "node_modules/https-proxy-agent/node_modules/debug",
+            "package_name": "debug",
+            "installed_version": "3.2.6",
+            "package_path": "node_modules/https-proxy-agent/node_modules/debug",
+            "dependency_type": "transitive",
+            "is_direct": false,
+            "vulnerability_count": 1,
+            "highest_severity": "LOW",
+            "highest_cvss_score": 3.7,
+            "vulnerability_ids": [
+                "GHSA-gxpj-cx7g-858c"
+            ],
+            "fixed_versions": [
+                "2.6.9",
+                "3.1.0",
+                "3.2.7",
+                "4.3.1"
+            ]
+        },
+        {
+            "package_instance_id": "node_modules/snyk-config/node_modules/debug",
+            "package_name": "debug",
+            "installed_version": "3.2.6",
+            "package_path": "node_modules/snyk-config/node_modules/debug",
+            "dependency_type": "transitive",
+            "is_direct": false,
+            "vulnerability_count": 1,
+            "highest_severity": "LOW",
+            "highest_cvss_score": 3.7,
+            "vulnerability_ids": [
+                "GHSA-gxpj-cx7g-858c"
+            ],
+            "fixed_versions": [
+                "2.6.9",
+                "3.1.0",
+                "3.2.7",
+                "4.3.1"
+            ]
+        },
+        {
+            "package_instance_id": "node_modules/snyk-module/node_modules/debug",
+            "package_name": "debug",
+            "installed_version": "3.2.6",
+            "package_path": "node_modules/snyk-module/node_modules/debug",
+            "dependency_type": "transitive",
+            "is_direct": false,
+            "vulnerability_count": 1,
+            "highest_severity": "LOW",
+            "highest_cvss_score": 3.7,
+            "vulnerability_ids": [
+                "GHSA-gxpj-cx7g-858c"
+            ],
+            "fixed_versions": [
+                "2.6.9",
+                "3.1.0",
+                "3.2.7",
+                "4.3.1"
+            ]
+        },
+        {
+            "package_instance_id": "node_modules/snyk-mvn-plugin/node_modules/needle/node_modules/debug",
+            "package_name": "debug",
+            "installed_version": "3.2.6",
+            "package_path": "node_modules/snyk-mvn-plugin/node_modules/needle/node_modules/debug",
+            "dependency_type": "transitive",
+            "is_direct": false,
+            "vulnerability_count": 1,
+            "highest_severity": "LOW",
+            "highest_cvss_score": 3.7,
+            "vulnerability_ids": [
+                "GHSA-gxpj-cx7g-858c"
+            ],
+            "fixed_versions": [
+                "2.6.9",
+                "3.1.0",
+                "3.2.7",
+                "4.3.1"
+            ]
+        },
+        {
+            "package_instance_id": "node_modules/snyk-nuget-plugin/node_modules/debug",
+            "package_name": "debug",
+            "installed_version": "3.2.6",
+            "package_path": "node_modules/snyk-nuget-plugin/node_modules/debug",
+            "dependency_type": "transitive",
+            "is_direct": false,
+            "vulnerability_count": 1,
+            "highest_severity": "LOW",
+            "highest_cvss_score": 3.7,
+            "vulnerability_ids": [
+                "GHSA-gxpj-cx7g-858c"
+            ],
+            "fixed_versions": [
+                "2.6.9",
+                "3.1.0",
+                "3.2.7",
+                "4.3.1"
+            ]
+        },
+        {
+            "package_instance_id": "node_modules/snyk-policy/node_modules/debug",
+            "package_name": "debug",
+            "installed_version": "3.2.6",
+            "package_path": "node_modules/snyk-policy/node_modules/debug",
+            "dependency_type": "transitive",
+            "is_direct": false,
+            "vulnerability_count": 1,
+            "highest_severity": "LOW",
+            "highest_cvss_score": 3.7,
+            "vulnerability_ids": [
+                "GHSA-gxpj-cx7g-858c"
+            ],
+            "fixed_versions": [
+                "2.6.9",
+                "3.1.0",
+                "3.2.7",
+                "4.3.1"
+            ]
+        },
+        {
+            "package_instance_id": "node_modules/snyk-resolve-deps/node_modules/debug",
+            "package_name": "debug",
+            "installed_version": "3.2.6",
+            "package_path": "node_modules/snyk-resolve-deps/node_modules/debug",
+            "dependency_type": "transitive",
+            "is_direct": false,
+            "vulnerability_count": 1,
+            "highest_severity": "LOW",
+            "highest_cvss_score": 3.7,
+            "vulnerability_ids": [
+                "GHSA-gxpj-cx7g-858c"
+            ],
+            "fixed_versions": [
+                "2.6.9",
+                "3.1.0",
+                "3.2.7",
+                "4.3.1"
+            ]
+        },
+        {
+            "package_instance_id": "node_modules/snyk-resolve/node_modules/debug",
+            "package_name": "debug",
+            "installed_version": "3.2.6",
+            "package_path": "node_modules/snyk-resolve/node_modules/debug",
+            "dependency_type": "transitive",
+            "is_direct": false,
+            "vulnerability_count": 1,
+            "highest_severity": "LOW",
+            "highest_cvss_score": 3.7,
+            "vulnerability_ids": [
+                "GHSA-gxpj-cx7g-858c"
+            ],
+            "fixed_versions": [
+                "2.6.9",
+                "3.1.0",
+                "3.2.7",
+                "4.3.1"
+            ]
+        },
+        {
+            "package_instance_id": "node_modules/snyk-try-require/node_modules/debug",
+            "package_name": "debug",
+            "installed_version": "3.2.6",
+            "package_path": "node_modules/snyk-try-require/node_modules/debug",
+            "dependency_type": "transitive",
+            "is_direct": false,
+            "vulnerability_count": 1,
+            "highest_severity": "LOW",
+            "highest_cvss_score": 3.7,
+            "vulnerability_ids": [
+                "GHSA-gxpj-cx7g-858c"
+            ],
+            "fixed_versions": [
+                "2.6.9",
+                "3.1.0",
+                "3.2.7",
+                "4.3.1"
+            ]
+        },
+        {
+            "package_instance_id": "node_modules/snyk/node_modules/debug",
+            "package_name": "debug",
+            "installed_version": "3.2.6",
+            "package_path": "node_modules/snyk/node_modules/debug",
+            "dependency_type": "transitive",
+            "is_direct": false,
+            "vulnerability_count": 1,
+            "highest_severity": "LOW",
+            "highest_cvss_score": 3.7,
+            "vulnerability_ids": [
+                "GHSA-gxpj-cx7g-858c"
+            ],
+            "fixed_versions": [
+                "2.6.9",
+                "3.1.0",
+                "3.2.7",
+                "4.3.1"
+            ]
+        },
+        {
+            "package_instance_id": "node_modules/on-headers",
+            "package_name": "on-headers",
+            "installed_version": "1.0.2",
+            "package_path": "node_modules/on-headers",
+            "dependency_type": "transitive",
+            "is_direct": false,
+            "vulnerability_count": 1,
+            "highest_severity": "LOW",
+            "highest_cvss_score": 3.4,
+            "vulnerability_ids": [
+                "GHSA-76c9-3jph-rj3q"
+            ],
+            "fixed_versions": [
+                "1.1.0"
+            ]
+        },
+        {
+            "package_instance_id": "node_modules/cookie",
+            "package_name": "cookie",
+            "installed_version": "0.1.2",
+            "package_path": "node_modules/cookie",
+            "dependency_type": "transitive",
+            "is_direct": false,
+            "vulnerability_count": 1,
+            "highest_severity": "LOW",
+            "highest_cvss_score": null,
+            "vulnerability_ids": [
+                "GHSA-pxg6-pf52-xh8x"
+            ],
+            "fixed_versions": [
+                "0.7.0"
+            ]
+        },
+        {
+            "package_instance_id": "node_modules/express-session/node_modules/cookie",
+            "package_name": "cookie",
+            "installed_version": "0.4.1",
+            "package_path": "node_modules/express-session/node_modules/cookie",
+            "dependency_type": "transitive",
+            "is_direct": false,
+            "vulnerability_count": 1,
+            "highest_severity": "LOW",
+            "highest_cvss_score": null,
+            "vulnerability_ids": [
+                "GHSA-pxg6-pf52-xh8x"
+            ],
+            "fixed_versions": [
+                "0.7.0"
+            ]
+        },
+        {
+            "package_instance_id": "node_modules/snyk/node_modules/diff",
+            "package_name": "diff",
+            "installed_version": "4.0.2",
+            "package_path": "node_modules/snyk/node_modules/diff",
+            "dependency_type": "transitive",
+            "is_direct": false,
+            "vulnerability_count": 1,
+            "highest_severity": "LOW",
+            "highest_cvss_score": null,
+            "vulnerability_ids": [
+                "GHSA-73rr-hh4g-fpgx"
+            ],
+            "fixed_versions": [
+                "3.5.1",
+                "4.0.4",
+                "5.2.2",
+                "8.0.3"
+            ]
+        }
+    ]
+}

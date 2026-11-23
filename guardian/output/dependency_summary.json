@@ -1,0 +1,11 @@
+{
+    "repository": "C:\\Users\\Kezia\\OneDrive\\Desktop\\sem\\S7\\BOSCH Hackathon\\Software-Supply-Chain-Guardian\\nodejs-goof",
+    "lockfile_version": 2,
+    "total_package_instances": 1274,
+    "unique_package_names": 752,
+    "direct_package_instances": 35,
+    "transitive_package_instances": 1239,
+    "dependency_edges": 1931,
+    "unresolved_dependencies": 0,
+    "root_declared_dependencies": 35
+}
